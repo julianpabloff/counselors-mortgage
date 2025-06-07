@@ -7,16 +7,18 @@ import './Header.css';
 
 function Header() {
     return (
-        <header class="max-w-container">
-            <div class="max-w">
-                <div class="logo">
-                    <img src={logo} alt="Logo" />
-                    <h1>Counselors Mortgage</h1>
-                </div>
+        <header className="max-w-container">
+            <div className="max-w">
+                <NavLink to="/counselors-mortgage">
+                    <div className="logo">
+                        <img src={logo} alt="Logo" />
+                        <h1>Counselors Mortgage</h1>
+                    </div>
+                </NavLink>
                 <nav>
-                    <NavLink to="/about">Our Company</NavLink>
-                    <NavLink to="/mobile-app">Mobile App</NavLink>
-                    <NavLink to="/reviews">Reviews</NavLink>
+                    <NavLink to="/counselors-mortgage/about">Our Company</NavLink>
+                    <NavLink to="/counselors-mortgage/mobile-app">Mobile App</NavLink>
+                    <NavLink to="/counselors-mortgage/reviews">Reviews</NavLink>
                 </nav>
             </div>
         </header>

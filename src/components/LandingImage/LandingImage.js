@@ -2,7 +2,7 @@ import './LandingImage.css';
 
 function LandingImage() {
     return (
-        <div class="landing-container"></div>
+        <div className="landing-container"></div>
     );
 }
 
