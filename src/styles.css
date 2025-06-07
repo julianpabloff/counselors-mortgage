@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+.roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+*/
+
+:root {
+    --dark-blue: #303548;
+    --light-blue: #4A597E;
+	--max-width: 1400px;
+    --side-padding: 8vw;
+}
+
+.max-w-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.max-w {
+	width: min(calc(100% - var(--side-padding) * 2), var(--max-width));
+	max-width: var(--max-width);
+	display: flex;
+}
+
+/* Sizing & Positioning */
+.flex { display: flex; }
+.align-start { align-items: flex-start; }
+.align-center { align-items: center; }
+.align-end { align-items: flex-end; }
+.justify-start { justify-content: flex-start; }
+.justify-center { justify-content: center; }
+.justify-end { justify-content: flex-end; }
+.justify-between { justify-content: space-between; }
+.justify-around { justify-content: space-around; }
+.column { flex-direction: column; }
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Roboto";
+}
