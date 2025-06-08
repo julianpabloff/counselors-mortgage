@@ -39,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-	background-color: #4A597E22;
+	background-color: var(--faded-blue);
 }
 
 a.phone-link {

@@ -4,10 +4,13 @@ import ArrowRight from '../ArrowRight/ArrowRight.js';
 import './ArrowLink.css';
 
 function ArrowLink(props) {
+    const { color, size, to } = props;
+    const arrowColor = color ? color : 'inherit';
+
     return (
-        <NavLink to={props.to} className="arrow-link">
+        <NavLink to={to} className="arrow-link">
             {props.children}
-            <ArrowRight color="white"/>
+            <ArrowRight color={arrowColor}/>
         </NavLink>
     );
 }

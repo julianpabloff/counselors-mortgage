@@ -1,11 +1,10 @@
 import { Outlet } from 'react-router';
-import Header from './components/Header/Header.js';
-import Footer from './components/Footer/Footer.js';
+import Header from '../components/Header/Header.js';
+import Footer from '../components/Footer/Footer.js';
 
-import './styles.css';
-import './App.css';
+import '../styles.css';
 
-function App() {
+function Layout() {
     return (
         <div className="site-container">
             <Header/>
@@ -15,4 +14,4 @@ function App() {
     );
 }
 
-export default App;
+export default Layout;

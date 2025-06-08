@@ -17,6 +17,7 @@
 :root {
     --dark-blue: #303548;
     --light-blue: #4A597E;
+	--faded-blue: #4A597E22;
 	--max-width: 1400px;
     --side-padding: 8vw;
 }
@@ -68,4 +69,9 @@ html {
 	font-family: "Roboto"; /*Variable Weight*/
     font-size: 16px;
 	font-weight: 400;
+}
+
+body {
+    color: var(--dark-blue);
+    background-color: white;
 }

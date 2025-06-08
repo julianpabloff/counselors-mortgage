@@ -10,7 +10,7 @@ function LandingImage() {
                 <div className="landing-text">
                     <h1>Let our family help yours.</h1>
                     <p>We make a commitment to you: we will help you qualify, apply, and be approved for the ideal mortgage for you.</p>
-                    <ArrowLink to="/counselors-mortgage/about">ABOUT US</ArrowLink>
+                    <ArrowLink to="/counselors-mortgage/about" color="white">ABOUT US</ArrowLink>
                 </div>
             </div>
         </div>

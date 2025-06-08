@@ -1,4 +1,27 @@
-div.reviews-panel {
-    height: 650px;
+section.reviews-section {
+    height: 40rem;
     background-color: #e8e8e8;
+}
+
+div.reviews-panel > div {
+    width: 50%;
+}
+
+div.reviews-panel div.left {
+    padding: 4.7rem 0;
+}
+
+div.reviews-panel h2 {
+    font-size: 2.5rem;
+}
+
+div.reviews-panel h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--light-blue);
+}
+
+div.reviews-panel div.left p {
+    margin: 2.5rem 0;
 }
