@@ -21,6 +21,10 @@
     --side-padding: 8vw;
 }
 
+/* Sizing & Positioning */
+.w-100 { width: 100%; }
+.h-100 { height: 100%; }
+
 .max-w-container {
 	width: 100%;
 	display: flex;
@@ -33,7 +37,15 @@
 	display: flex;
 }
 
-/* Sizing & Positioning */
+.relative { position: relative; }
+.absolute { position: absolute; }
+.absolute-0 {
+	top: 0;
+	left: 0;
+	position: absolute;
+}
+
+/* Flexbox */
 .flex { display: flex; }
 .align-start { align-items: flex-start; }
 .align-center { align-items: center; }
@@ -45,12 +57,15 @@
 .justify-around { justify-content: space-around; }
 .column { flex-direction: column; }
 
+/* Elements */
+
 a {
 	color: inherit;
 	text-decoration: none;
 }
 
 html {
+	font-family: "Roboto"; /*Variable Weight*/
     font-size: 16px;
-    font-family: "Roboto";
+	font-weight: 400;
 }

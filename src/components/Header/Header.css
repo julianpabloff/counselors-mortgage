@@ -41,3 +41,20 @@ nav a {
 nav a:hover {
 	background-color: #4A597E22;
 }
+
+a.phone-link {
+	padding: 0.9rem 1.1rem;
+	border-radius: 1rem;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-size: 1.2rem;
+	font-weight: 900;
+	letter-spacing: 0.06rem;
+	color: white;
+	background-color: var(--dark-blue);
+}
+
+a.phone-link img {
+	height: 2rem;
+}

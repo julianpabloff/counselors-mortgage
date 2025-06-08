@@ -1,5 +1,6 @@
+import { Outlet } from 'react-router';
 import Header from './components/Header/Header.js';
-import LandingImage from './components/LandingImage/LandingImage.js';
+import Footer from './components/Footer/Footer.js';
 
 import './styles.css';
 import './App.css';
@@ -8,7 +9,8 @@ function App() {
     return (
         <div className="site-container">
             <Header/>
-            <LandingImage/>
+            <Outlet/>
+            <Footer/>
         </div>
     );
 }

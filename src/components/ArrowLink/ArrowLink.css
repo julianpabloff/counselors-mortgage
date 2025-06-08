@@ -1,0 +1,22 @@
+a.arrow-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-weight: 350;
+    text-decoration: underline;
+    transition: font-weight 0.1s;
+}
+
+a.arrow-link svg {
+    height: 1rem;
+    transition: transform 0.2s;
+}
+
+a.arrow-link:hover {
+    font-weight: 500;
+}
+
+a.arrow-link:hover svg {
+    transform: translateX(5px);
+}
