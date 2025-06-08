@@ -1,4 +1,5 @@
 a.arrow-link {
+    width: fit-content;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -10,7 +11,7 @@ a.arrow-link {
 
 a.arrow-link svg {
     height: 1rem;
-    transition: transform 0.2s;
+    transition: transform 0.25s;
 }
 
 a.arrow-link:hover {

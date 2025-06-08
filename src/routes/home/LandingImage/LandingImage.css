@@ -1,15 +1,18 @@
 div.landing-container {
-    height: 550px;
+    height: 500px;
     background-image: url('../../../assets/house.png');
+    /* background-image: url('../../../assets/houses.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 15%;
+    /* background-position: center 53%; */
 }
 
 div.landing-text {
-    color: white;
     position: relative;
     top: 75px;
+    right: 10%;
+    color: white;
 }
 
 div.landing-text h1 {
@@ -23,6 +26,5 @@ div.landing-text p {
     max-width: 550px;
     font-size: 1.4rem;
     font-weight: 350;
-    line-height: 2rem;
     margin-bottom: 2rem;
 }

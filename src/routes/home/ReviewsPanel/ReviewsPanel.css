@@ -1,14 +1,14 @@
 section.reviews-section {
-    height: 40rem;
+    height: 43rem;
     background-color: #e8e8e8;
 }
 
 div.reviews-panel > div {
-    width: 50%;
+    width: 45%;
 }
 
 div.reviews-panel div.left {
-    padding: 4.7rem 0;
+    padding: 6rem 0;
 }
 
 div.reviews-panel h2 {
@@ -22,6 +22,15 @@ div.reviews-panel h3 {
     color: var(--light-blue);
 }
 
-div.reviews-panel div.left p {
-    margin: 2.5rem 0;
+div.reviews-panel ul {
+    padding: 1rem;
+    background-color: var(--faded-blue);
+}
+
+div.reviews-panel li {
+    margin-left: 2rem;
+}
+
+div.reviews-panel div.right {
+    padding: 3.5rem 0;
 }
