@@ -68,13 +68,77 @@ export const loanData = [
         title: 'Self-Employed Borrowers',
         buttonTitle: 'Self-Employed Borrowers',
         icon: selfIcon,
-        products: []
+        products: [
+            {
+                title: 'Bank Statement Loan Program',
+                description: [
+                    'Our bank statement loan programs are tailored to meet the unique needs of self-employed borrowers. These programs use common-sense underwriting based on 12 or 24 months of bank deposits, offering a flexible alternative to traditional income documentation.',
+                    'We consider both business and personal bank deposits, as well as W-2 income deposits. Multiple business bank accounts are acceptable, and depending on the type of business, the expense ratio can be as low as 10%. Best of all, profit and loss statements are not required.',
+                    'If you\'re a business owner seeking hassle-free home financing, our bank statement program offers the flexibility and simplicity you need to qualify with confidence.'
+                ]
+            },
+            {
+                title: 'Profit & Loss Program',
+                description: [
+                    'Now self-employed borrowers can qualify for loans based on their business Profit & Loss statement. Our Profit & Loss Loan Program is a great solution for business owners with fluctuating seasonal income or cash businesses.',
+                ]
+            },
+            {
+                title: 'Asset Depletion Loans / Asset Qualifier Program',
+                description: [
+                    'Borrowers with great credit, but no steady monthly income, may be able to use their assets to qualify for a mortgage. Compared to asset depletion, the Asset Qualifier program essentially doubles the qualifying monthly income, since the draw period is only 5 years (qualifying assets / 60 months).',
+                ]
+            }
+        ]
     },
     {
         hashId: 'investors',
         title: 'Investment Property Loans',
         buttonTitle: 'Investors',
         icon: investorsIcon,
-        products: []
+        products: [
+            {
+                title: 'DSCR Loans',
+                description: [
+                    'A Debt Service Coverage Ratio or DSCR loan enables you to qualify based on the cash flow of your investment property. The DSCR ratio is calculated using the lease income compared to the full property housing payment. A DSCR loan offers these great benefits:',
+                    [
+                        'You may close the loan in the name of your company, for example an LLC, partnership or a corporation',
+                        'Your personal income or employment does not need to be analyzed',
+                        'Financial reserves are required for the subject property only (unlike conventional loan, there is no reserve requirement for any additional properties you own)'
+                    ],
+                    'These loans are a great way to build your portfolio of income producing properties. They are easier to qualify for than a conventional loan and require less reserves.'
+                ]
+            },
+            {
+                title: 'Fix and Flip Loans',
+                description: [
+                    'Turn opportunity into profit with our streamlined Fix and Flip financing. These short-term, asset-based loans offer fast access to capital, empowering investors to:',
+                    [
+                        'Purchase properties quickly',
+                        'Fund renovations without delays',
+                        'List and sell for a profit — fast'
+                    ],
+                    'Whether you\'re a seasoned investor or a first-time flipper, our Fix and Flip loans give you the competitive edge you need to succeed in today\'s dynamic real estate market.'
+                ]
+            },
+            {
+                title: 'Construction Loans',
+                description: [
+                    'Our ground-up construction loans are designed to finance the entire building process — from land acquisition to the completion of a brand-new structure. Whether it\'s a dream home or an investment property, building from the ground up requires financing that offers speed, flexibility, and reliability.',
+                    'These loans are tailored for experienced builders who meet the following qualifications:',
+                    [
+                        '[QUALIFICATIONS NEEDED HERE]'
+                    ],
+                    'Key Highlights:',
+                    [
+                        'Financing available for land purchase and full construction',
+                        'Designed for builders with a proven track record (At least three completed new builds, or two builds + one major renovation exceeding $200,000',
+                        'Flexible draw schedules',
+                        'Streamlined approval process'
+                    ],
+                    'If you are ready to break ground, our construction loans provide the capital and confidence to bring your vision to life—every step of the way.'
+                ]
+            }
+        ]
     }
 ];

@@ -17,8 +17,8 @@
 :root {
     --dark-blue: #303548;
     --light-blue: #4A597E;
-	--faded-blue: #4A597E22;
-	--faded-blue-new: #cfd1d7;
+	--transparent-blue: #4A597E22;
+	--faded-blue: #e7e9ee;
 	--max-width: 1400px;
 	--max-width-small: 900px;
     --side-padding: 8vw;
@@ -109,6 +109,10 @@ p {
 
 ul {
 	line-height: 2em;
+}
+
+:target {
+    scroll-margin-top: 150px;
 }
 
 html {

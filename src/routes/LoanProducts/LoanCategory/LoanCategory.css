@@ -1,8 +1,14 @@
 section.loan-category {
-
+    flex-direction: column;
+    gap: 40px;
+    padding: 150px 0;
 }
 
 section.loan-category.dark {
     color: white;
     background-color: var(--dark-blue);
+}
+
+section.loan-category h2 {
+    letter-spacing: 5%;
 }
