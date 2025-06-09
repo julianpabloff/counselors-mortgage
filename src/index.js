@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router';
 
 import Layout from './routes/Layout.js';
 import Home from './routes/Home/Home.js';
+import LoanProducts from './routes/LoanProducts/LoanProducts.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,7 +13,8 @@ root.render(
             <Routes>
                 <Route element={<Layout/>}>
                     <Route path="counselors-mortgage" element={<Home/>}/>
-                    <Route path="counselors-mortgage/*" element={<div>404</div>}/>
+                    <Route path="counselors-mortgage/loan-products" element={<LoanProducts/>}/>
+                    <Route path="counselors-mortgage/*" element={<div></div>}/>
                 </Route>
             </Routes>
         </BrowserRouter>

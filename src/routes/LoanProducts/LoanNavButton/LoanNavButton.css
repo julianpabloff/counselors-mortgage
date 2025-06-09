@@ -1,0 +1,30 @@
+a.loan-nav {
+    width: 14rem;
+    height: 14rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 200;
+    color: white;
+    background-color: var(--dark-blue);
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+a.loan-nav.smaller {
+    font-size: 1.5rem;
+}
+
+a.loan-nav img {
+    height: 4.5rem;
+}
+
+a.loan-nav:hover {
+    /* border-radius: 0; */
+    text-decoration: underline;
+    background-color: var(--light-blue);
+}

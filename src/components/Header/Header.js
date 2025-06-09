@@ -15,13 +15,13 @@ function Header() {
                         <NavLink to="/counselors-mortgage">
                             <div className="logo">
                                 <img src={logo} alt="Logo"/>
-                                <h1>Counselors Mortgage</h1>
+                                <span>Counselors Mortgage</span>
                             </div>
                         </NavLink>
                         <nav className="h-100">
                             <NavLink to="/counselors-mortgage/about">Our Company</NavLink>
+                            <NavLink to="/counselors-mortgage/loan-products">Loan Products</NavLink>
                             <NavLink to="/counselors-mortgage/mobile-app">Mobile App</NavLink>
-                            <NavLink to="/counselors-mortgage/reviews">Reviews</NavLink>
                         </nav>
                     </div>
                     <a href="tel:+15129169955" className="phone-link">

@@ -29,9 +29,9 @@ function ReviewsPanel() {
                     </div>
                     <p>We have our clients to thank for our success, as all our business comes from our client's referrals. Many of them do repeat business with us because they are satisfied with their experience.</p>
                     <ul>
-                        <li>We have over a 100 reviews on Zillow for Jim and Andrea</li>
-                        <li>100% of our reviews are 5-star</li>
-                        <li>60% of our clients say their interest rate is lower than expected</li>
+                        <li>We have over a <b>100 reviews</b> on Zillow for Jim and Andrea</li>
+                        <li>100% of our reviews are <b>5-star</b></li>
+                        <li>60% of our clients say their interest rate is <b>lower than expected</b></li>
                     </ul>
                     <ZillowButton/>
                 </div>

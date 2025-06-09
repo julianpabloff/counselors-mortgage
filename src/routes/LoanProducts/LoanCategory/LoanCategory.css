@@ -1,0 +1,8 @@
+section.loan-category {
+
+}
+
+section.loan-category.dark {
+    color: white;
+    background-color: var(--dark-blue);
+}
