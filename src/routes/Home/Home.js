@@ -1,0 +1,15 @@
+import LandingImage from './LandingImage/LandingImage.js';
+import ReviewsPanel from './ReviewsPanel/ReviewsPanel.js';
+import AboutPanel from './AboutPanel/AboutPanel.js';
+
+function Home() {
+    return (
+        <div>
+            <LandingImage/>
+            <ReviewsPanel/>
+            <AboutPanel/>
+        </div>
+    );
+}
+
+export default Home;

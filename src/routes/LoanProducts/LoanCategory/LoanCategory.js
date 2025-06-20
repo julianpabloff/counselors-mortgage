@@ -15,7 +15,7 @@ function LoanCategory({ hashId, title, theme, products }) {
     });
 
     return (
-        <div className={`max-w-container ${theme}`}>
+        <div key={hashId} className={`max-w-container ${theme}`}>
             <section className="max-w-small loan-category">
                 <h2 id={hashId}>{title}</h2>
                 {loanProducts}

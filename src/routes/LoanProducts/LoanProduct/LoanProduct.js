@@ -1,12 +1,12 @@
 import './LoanProduct.css';
 
-function ulFromStringArray(array) {
+function ulFromStringArray(array, listKey = 0) {
     const li = [];
     for (let i = 0; i < array.length; i++) {
         const text = array[i];
         li.push(<li key={i}>{text}</li>);
     }
-    return <ul>{li}</ul>;
+    return <ul key={listKey}>{li}</ul>;
 }
 
 function generateDescription(description) {
@@ -14,16 +14,13 @@ function generateDescription(description) {
     const length = description.length;
     for (let i = 0; i < length; i++) {
         const data = description[i];
-        const key1 = i + 1;
-        const key2 = (i + 1) + length;
+        const key = i + 1;
 
         const type = typeof(data);
         if (type == 'string')
-            jsx.push(<p key={key1}>{data}</p>);
+            jsx.push(<p key={key}>{data}</p>);
         else if (type == 'object')
-            jsx.push(ulFromStringArray(data));
-
-        // Add <br>
+            jsx.push(ulFromStringArray(data, key));
     };
     return jsx;
 }
