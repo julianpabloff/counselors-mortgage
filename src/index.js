@@ -4,7 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router';
 
 import Layout from './routes/Layout.js';
 import Home from './routes/Home/Home.js';
-import LoanProducts from './routes/LoanProducts/LoanProducts.js';
+import About from './routes/About/About.js';
+import Products from './routes/Products/Products.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +14,7 @@ root.render(
             <Routes>
                 <Route element={<Layout/>}>
                     <Route path="/" element={<Home/>}/>
-                    <Route path="/loan-products" element={<LoanProducts/>}/>
+                    <Route path="/products" element={<Products/>}/>
                     <Route path="/*" element={<div></div>}/>
                 </Route>
             </Routes>

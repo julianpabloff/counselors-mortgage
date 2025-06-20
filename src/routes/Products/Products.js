@@ -1,16 +1,16 @@
-import LoanLanding from './LoanLanding/LoanLanding.js';
-import LoanNavButton from './LoanNavButton/LoanNavButton.js';
+import ProductsLanding from './ProductsLanding/ProductsLanding.js';
+import ProductNavButton from './ProductNavButton/ProductNavButton.js';
 import LoanCategory from './LoanCategory/LoanCategory.js';
 
 import { loanData } from './loanData.js';
 
-const loanNavButtons = [];
+const productNavButtons = [];
 const loanCategories = [];
 
 let i = 0;
 loanData.map(category => {
-    loanNavButtons.push(
-        <LoanNavButton
+    productNavButtons.push(
+        <ProductNavButton
             key={category.hashId}
             hashId={category.hashId}
             title={category.buttonTitle}
@@ -31,13 +31,13 @@ loanData.map(category => {
     i++;
 });
 
-function LoanProducts() {
+function Products() {
     return (
         <div>
-            <LoanLanding loanNavButtons={loanNavButtons}/>
+            <ProductsLanding productNavButtons={productNavButtons}/>
             {loanCategories}
         </div>
     );
 }
 
-export default LoanProducts;
+export default Products;

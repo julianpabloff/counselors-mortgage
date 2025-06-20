@@ -1,11 +1,11 @@
 div.landing-container {
     height: 500px;
-    /* background-image: url('../../../assets/house.png'); */
-    background-image: url('../../../assets/houses.jpg');
+    background-image: url('../../../assets/house.png');
+    /* background-image: url('../../../assets/houses.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center 15%; */
-    background-position: center 53%;
+    background-position: center 15%;
+    /* background-position: center 53%; */
 }
 
 div.landing-text {

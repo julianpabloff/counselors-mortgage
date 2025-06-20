@@ -1,9 +1,7 @@
-// import LoanNavButton from '../LoanNavButton/LoanNavButton.js';
-
 import '../../../styles.css';
-import './LoanLanding.css';
+import './ProductsLanding.css';
 
-function LoanLanding({ loanNavButtons }) {
+function ProductsLanding({ productNavButtons }) {
     // const navButtons = loanData.map(l =>
     //     <LoanNavButton key={l.hashId} icon={l.icon} to={`#${l.hashId}`}>{l.buttonTitle}</LoanNavButton>
     // );
@@ -16,11 +14,11 @@ function LoanLanding({ loanNavButtons }) {
             </div>
             <div className="max-w-container">
                 <div className="max-w-small justify-between">
-                    {loanNavButtons}
+                    {productNavButtons}
                 </div>
             </div>
         </div>
     );
 }
 
-export default LoanLanding;
+export default ProductsLanding;

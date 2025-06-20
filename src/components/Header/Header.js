@@ -20,7 +20,7 @@ function Header() {
                         </NavLink>
                         <nav className="h-100">
                             <NavLink to="/about">Our Company</NavLink>
-                            <NavLink to="/loan-products">Loan Products</NavLink>
+                            <NavLink to="/products">Loan Products</NavLink>
                             <NavLink to="/mobile-app">Mobile App</NavLink>
                         </nav>
                     </div>

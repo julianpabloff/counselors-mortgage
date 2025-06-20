@@ -1,6 +1,6 @@
-import './LoanNavButton.css';
+import './ProductNavButton.css';
 
-function LoanNavButton({ hashId, title, icon }) {
+function ProductNavButton({ hashId, title, icon }) {
     // Slightly decrease font size for more text
     const className = title.length < 20 ? 'loan-nav' : 'loan-nav smaller';
 
@@ -12,4 +12,4 @@ function LoanNavButton({ hashId, title, icon }) {
     );
 }
 
-export default LoanNavButton;
+export default ProductNavButton;
