@@ -1,0 +1,16 @@
+div.about-landing {
+	padding: 50px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2.5rem;
+}
+
+div.five-stars {
+	display: flex;
+	gap: 3rem;
+}
+
+img.star {
+	height: 2.5rem;
+}
