@@ -38,7 +38,7 @@ function ReviewsPanel() {
                 <div className="right flex column justify-between">
                     <Review {...reviews[0]}/>
                     <Review {...reviews[1]}/>
-                    <ArrowLink to="/counselors-mortgage/reviews">See more reviews</ArrowLink>
+                    <ArrowLink to="/reviews">See more reviews</ArrowLink>
                 </div>
             </div>
         </section>

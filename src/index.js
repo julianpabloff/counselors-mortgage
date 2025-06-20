@@ -9,12 +9,12 @@ import LoanProducts from './routes/LoanProducts/LoanProducts.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
+        <BrowserRouter basename="/counselors-mortgage">
             <Routes>
                 <Route element={<Layout/>}>
-                    <Route path="counselors-mortgage" element={<Home/>}/>
-                    <Route path="counselors-mortgage/loan-products" element={<LoanProducts/>}/>
-                    <Route path="counselors-mortgage/*" element={<div></div>}/>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/loan-products" element={<LoanProducts/>}/>
+                    <Route path="/*" element={<div></div>}/>
                 </Route>
             </Routes>
         </BrowserRouter>

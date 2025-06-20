@@ -12,16 +12,16 @@ function Header() {
             <header className="max-w-container">
                 <div className="max-w align-center justify-between">
                     <div className="flex h-100">
-                        <NavLink to="/counselors-mortgage">
+                        <NavLink to="/">
                             <div className="logo">
                                 <img src={logo} alt="Logo"/>
                                 <span>Counselors Mortgage</span>
                             </div>
                         </NavLink>
                         <nav className="h-100">
-                            <NavLink to="/counselors-mortgage/about">Our Company</NavLink>
-                            <NavLink to="/counselors-mortgage/loan-products">Loan Products</NavLink>
-                            <NavLink to="/counselors-mortgage/mobile-app">Mobile App</NavLink>
+                            <NavLink to="/about">Our Company</NavLink>
+                            <NavLink to="/loan-products">Loan Products</NavLink>
+                            <NavLink to="/mobile-app">Mobile App</NavLink>
                         </nav>
                     </div>
                     <a href="tel:+15129169955" className="phone-link">
