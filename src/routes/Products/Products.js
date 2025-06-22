@@ -2,13 +2,13 @@ import ProductsLanding from './ProductsLanding/ProductsLanding.js';
 import ProductNavButton from './ProductNavButton/ProductNavButton.js';
 import LoanCategory from './LoanCategory/LoanCategory.js';
 
-import { loanData } from './loanData.js';
+import { productsData } from '../../data/productsData.js';
 
 const productNavButtons = [];
 const loanCategories = [];
 
 let i = 0;
-loanData.map(category => {
+productsData.map(category => {
     productNavButtons.push(
         <ProductNavButton
             key={category.hashId}

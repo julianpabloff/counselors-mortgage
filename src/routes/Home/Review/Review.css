@@ -1,28 +1,28 @@
-div.review p.review-text {
+div.review div.text-container {
     font-size: 1.2rem;
     font-weight: 350;
     font-style: italic;
-    margin-bottom: 1rem;
+    position: relative;
 }
 
 div.review img {
-    height: 3.9rem;
+    height: 3rem;
     position: absolute;
     opacity: 0.16;
 }
 
 div.review img.left-quote {
-    top: -1.4rem;
+    top: -1.8rem;
     left: -1.2rem;
 }
 
 div.review img.right-quote {
-    bottom: -0.8rem;
+    bottom: -0.3rem;
     right: -0.8rem;
 }
 
 div.review p.name {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 

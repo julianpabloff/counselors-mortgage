@@ -6,7 +6,7 @@ import '../styles.css';
 
 function Layout() {
     return (
-        <div className="site-container">
+        <div>
             <Header/>
             <Outlet/>
             <Footer/>

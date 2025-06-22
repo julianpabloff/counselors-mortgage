@@ -6,11 +6,11 @@ import './Review.css';
 function Review({ text, name, location }) {
     return (
         <div className="review">
-            <p className="review-text relative">
-                {text}
+            <div className="text-container mb-3">
+                <p>{text}</p>
                 <img src={leftQuote} alt="Quotation Mark" className="left-quote"/>
                 <img src={rightQuote} alt="Quotation Mark" className="right-quote"/>
-            </p>
+            </div>
             <div className="flex align-center">
                 <p className="name">{name}</p>
                 <span>|</span>

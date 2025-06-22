@@ -8,6 +8,7 @@ function Home() {
             <LandingImage/>
             <ReviewsPanel/>
             <AboutPanel/>
+            {/* <ProductsPanel/> */}
         </div>
     );
 }

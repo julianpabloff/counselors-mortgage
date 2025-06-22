@@ -1,10 +1,13 @@
 import ArrowLink from '../../../components/ArrowLink/ArrowLink.js';
 import ZillowButton from '../ZillowButton/ZillowButton.js';
-import Review from '../Review/Review.js';
+import ReviewSlider from '../ReviewSlider/ReviewSlider.js';
 
 import '../../../styles.css';
 import './ReviewsPanel.css';
 
+const reviewsJSON = require('../../../data/reviews.json');
+
+/*
 const reviews = [
     {
         text: 'I was referred to Jim and Andrea, and from the beginning Jim was friendly and patient answering all my questions, as well as providing some helpful insight as to my best options. During the process, they were attentive and updated me as much  as possible, so I wasn\'t in the dark. At closing, Jim and Andrea personally showed up to make sure everything went well, and that I was taken care of. Super sweet people that do good work.',
@@ -17,12 +20,13 @@ const reviews = [
         location: 'Houston, TX'
     }
 ];
+*/
 
 function ReviewsPanel() {
     return (
         <section className="reviews-section max-w-container">
             <div className="max-w reviews-panel justify-between">
-                <div className="left flex column justify-between">
+                <div className="left flex column justify-center">
                     <div>
                         <h2>From Our Clients</h2>
                         <h3>What our clients say about their experience</h3>
@@ -31,14 +35,15 @@ function ReviewsPanel() {
                     <ul>
                         <li>We have over a <b>100 reviews</b> on Zillow for Jim and Andrea</li>
                         <li>100% of our reviews are <b>5-star</b></li>
-                        <li>60% of our clients say their interest rate is <b>lower than expected</b></li>
+                        <li>Many of our clients say their interest rate is <b>lower than expected</b></li>
                     </ul>
                     <ZillowButton/>
                 </div>
                 <div className="right flex column justify-between">
-                    <Review {...reviews[0]}/>
-                    <Review {...reviews[1]}/>
-                    <ArrowLink to="/reviews">See more reviews</ArrowLink>
+                    <div className="review-slider-container">
+                        <ReviewSlider reviews={reviewsJSON}/>
+                    </div>
+                    <ArrowLink to="/reviews">See all reviews</ArrowLink>
                 </div>
             </div>
         </section>

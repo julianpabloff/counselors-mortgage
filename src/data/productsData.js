@@ -1,8 +1,8 @@
-import houseIcon from '../../assets/icon-house.png';
-import selfIcon from '../../assets/icon-self.png';
-import investorsIcon from '../../assets/icon-investors.png';
+import houseIcon from '../assets/icon-house.png';
+import selfIcon from '../assets/icon-self.png';
+import investorsIcon from '../assets/icon-investors.png';
 
-export const loanData = [
+export const productsData = [
     {
         hashId: 'home-loan',
         title: 'Home Loan Solutions',
