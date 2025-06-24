@@ -6,22 +6,32 @@ import phone from '../../assets/phone.png';
 import '../../styles.css';
 import './Header.css';
 
+const scrollToTop = () => window.scrollTo(0, 0);
+
+function ScrollResetLink({ to, children }) {
+    return (
+        <NavLink to={to} onClick={scrollToTop}>
+            {children}
+        </NavLink>
+    );
+}
+
 function Header() {
     return (
         <div>
             <header className="max-w-container">
                 <div className="max-w align-center justify-between">
                     <div className="flex h-100">
-                        <NavLink to="/">
+                        <ScrollResetLink to="/">
                             <div className="logo">
                                 <img src={logo} alt="Logo"/>
                                 <span>Counselors Mortgage</span>
                             </div>
-                        </NavLink>
+                        </ScrollResetLink>
                         <nav className="h-100">
-                            <NavLink to="/about">Our Company</NavLink>
-                            <NavLink to="/products">Loan Products</NavLink>
-                            <NavLink to="/mobile-app">Mobile App</NavLink>
+                            <ScrollResetLink to="/about">Our Company</ScrollResetLink>
+                            <ScrollResetLink to="/products">Loan Products</ScrollResetLink>
+                            <ScrollResetLink to="/mobile-app">Mobile App</ScrollResetLink>
                         </nav>
                     </div>
                     <a href="tel:+15129169955" className="phone-link">
