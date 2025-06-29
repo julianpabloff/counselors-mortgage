@@ -1,0 +1,21 @@
+div.review-slider-container {
+    height: 100%;
+    position: relative;
+}
+
+/* div that gets swapped out w/ opacity transition */
+div.review-slider-container > div {
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+    user-select: none;
+    opacity: 1;
+    transition: opacity 0.9s;
+}
+
+div.review-slider-container > div.hidden {
+    opacity: 0;
+}

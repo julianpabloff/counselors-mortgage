@@ -7,21 +7,6 @@ import './ReviewsPanel.css';
 
 const reviewsJSON = require('../../../data/reviews.json');
 
-/*
-const reviews = [
-    {
-        text: 'I was referred to Jim and Andrea, and from the beginning Jim was friendly and patient answering all my questions, as well as providing some helpful insight as to my best options. During the process, they were attentive and updated me as much  as possible, so I wasn\'t in the dark. At closing, Jim and Andrea personally showed up to make sure everything went well, and that I was taken care of. Super sweet people that do good work.',
-        name: 'Juan Wah',
-        location: 'Austin, TX'
-    },
-    {
-        text: 'Jim and Andrea have been absolutely  remarkable through every step of this process. They explained everything to us in great detail, worked late hours to get us the house and really went above and beyond. They came highly recommended and we can see why.',
-        name: 'Rinita Laud and Kwami Roberts',
-        location: 'Houston, TX'
-    }
-];
-*/
-
 function ReviewsPanel() {
     return (
         <section className="reviews-section max-w-container">
@@ -40,7 +25,7 @@ function ReviewsPanel() {
                     <ZillowButton/>
                 </div>
                 <div className="right flex column justify-between">
-                    <div className="review-slider-container">
+                    <div className="reviews-container">
                         <ReviewSlider reviews={reviewsJSON}/>
                     </div>
                     <ArrowLink to="/reviews">See all reviews</ArrowLink>

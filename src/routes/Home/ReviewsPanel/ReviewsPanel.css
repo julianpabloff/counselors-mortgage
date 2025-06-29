@@ -31,10 +31,6 @@ div.reviews-panel div.right {
     padding: 2.5rem 0;
 }
 
-div.review-slider-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 1rem;
+div.reviews-container {
     flex-grow: 1;
 }

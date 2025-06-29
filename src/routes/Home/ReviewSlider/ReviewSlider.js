@@ -1,6 +1,18 @@
 import { useEffect, useState } from 'react';
 import Review from '../Review/Review.js';
 
+import './ReviewSlider.css';
+
+function shuffleReviews(reviews) {
+    const length = reviews.length;
+    for (let i in reviews) {
+        const randomIndex = Math.floor(Math.random() * length);
+        let temp = reviews[i];
+        reviews[i] = reviews[randomIndex];
+        reviews[randomIndex] = temp;
+    }
+}
+
 // Generates the actual JSX, given a list of reviews to display
 function generateReviewsJSX(reviews) {
     const output = [];
@@ -16,11 +28,11 @@ function generateReviewsJSX(reviews) {
     Uses knowledge of where in the reviews array we are, in order to get
     the next page of reviews, and then updates the new array location
 */
-function getReviews(reviews, index, setNextIndex) {
+function getReviews(reviews, startIndex) {
     const charMax = 800;
     const totalReviews = reviews.length;
 
-    let i = index;
+    let i = startIndex;
     const advance = () => i = (i + 1) % totalReviews;
 
     const firstReview = reviews[i];
@@ -34,9 +46,33 @@ function getReviews(reviews, index, setNextIndex) {
         advance();
     }
 
-    setNextIndex(i);
     const jsx = generateReviewsJSX(reviewsToGenerate);
-    return jsx;
+    return [jsx, i];
+}
+
+function ReviewTransitioner({ reviewsJSX }) {
+    const [container0, setContainer0] = useState();
+    const [container1, setContainer1] = useState();
+    const [activeContainer, setActiveContainer] = useState(0);
+
+    useEffect(() => {
+        if (container0) {
+            if (activeContainer == 0) {
+                setContainer1(reviewsJSX);
+                setActiveContainer(1);
+            } else { // == 1
+                setContainer0(reviewsJSX);
+                setActiveContainer(0);
+            }
+        } else setContainer0(reviewsJSX);
+    }, [reviewsJSX]);
+
+    return (
+        <div className="review-slider-container">
+            <div className={activeContainer != 0 ? 'hidden' : undefined}>{container0}</div>
+            <div className={activeContainer != 1 ? 'hidden' : undefined}>{container1}</div>
+        </div>
+    );
 }
 
 function ReviewSlider({ reviews }) {
@@ -44,14 +80,20 @@ function ReviewSlider({ reviews }) {
     const [nextIndex, setNextIndex] = useState(0);
 
     function cycleReviews() {
-        const jsx = getReviews(reviews, nextIndex, setNextIndex);
+        const [jsx, next] = getReviews(reviews, nextIndex);
         setReviewsJSX(jsx);
+        setNextIndex(next);
     }
 
-    useEffect(cycleReviews, []);
-    useEffect(() => {setTimeout(cycleReviews, 6000)}, [nextIndex]);
+    useEffect(() => { // init
+        shuffleReviews(reviews);
+        cycleReviews();
+    }, []);
 
-    return reviewsJSX;
+    const cycleTime = 7000;
+    useEffect(() => {setTimeout(cycleReviews, cycleTime)}, [nextIndex]);
+
+    return <ReviewTransitioner reviewsJSX={reviewsJSX}/>;
 }
 
 export default ReviewSlider;
