@@ -5,6 +5,10 @@ div.review div.text-container {
     position: relative;
 }
 
+div.review div.text-container > p {
+    line-height: 1.5em;
+}
+
 div.review img {
     height: 3rem;
     position: absolute;

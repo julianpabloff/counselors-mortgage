@@ -1,0 +1,41 @@
+div.profile {
+    display: flex;
+    /* font-size: 1.2rem; */
+    margin-bottom: 120px;
+}
+
+div.profile > div {
+    gap: 2rem;
+}
+
+div.profile.right > div {
+    flex-direction: row-reverse;
+}
+
+div.profile img {
+	height: 23rem;
+	border: 0.5rem solid var(--dark-blue);
+}
+
+div.profile h2 {
+    font-size: 2.2rem;
+}
+
+div.profile h3 {
+    font-size: 1.1rem;
+    color: var(--dark-blue);
+    margin-bottom: 1rem;
+}
+
+div.profile p.nmls {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 5%;
+    color: var(--light-blue);
+    margin-bottom: 2rem;
+}
+
+div.profile a.inline-link {
+    color: var(--light-blue);
+    text-decoration: underline;
+}

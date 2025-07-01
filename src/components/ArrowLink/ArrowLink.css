@@ -6,7 +6,13 @@ a.arrow-link {
     font-size: 1.5rem;
     font-weight: 350;
     text-decoration: underline;
-    transition: font-weight 0.1s;
+    transition: font-weight 0.1s, letter-spacing 0.1s;
+}
+
+a.arrow-link.small {
+    font-size: 1.2rem;
+    font-weight: 400;
+    gap: 0.7rem;
 }
 
 a.arrow-link svg {
@@ -16,6 +22,10 @@ a.arrow-link svg {
 
 a.arrow-link:hover {
     font-weight: 500;
+}
+
+a.arrow-link.small:hover {
+    letter-spacing: 1%;
 }
 
 a.arrow-link:hover svg {

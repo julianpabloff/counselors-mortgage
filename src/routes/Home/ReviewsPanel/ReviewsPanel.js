@@ -14,7 +14,7 @@ function ReviewsPanel() {
                 <div className="left flex column justify-center">
                     <div>
                         <h2>From Our Clients</h2>
-                        <h3>What our clients say about their experience</h3>
+                        <h3 className="subheading">What our clients say about their experience</h3>
                     </div>
                     <p>We have our clients to thank for our success, as all our business comes from our client's referrals. Many of them do repeat business with us because they are satisfied with their experience.</p>
                     <ul>

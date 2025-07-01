@@ -13,9 +13,6 @@ div.reviews-panel div.left {
 
 div.reviews-panel h3 {
     font-size: 1.5rem;
-    font-style: italic;
-    font-weight: 300;
-    color: var(--light-blue);
 }
 
 div.reviews-panel ul {

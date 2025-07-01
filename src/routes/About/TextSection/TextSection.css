@@ -1,0 +1,15 @@
+section.about-text {
+    padding: 175px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+section.about-text p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+section.about-text a {
+    margin-top: 1rem;
+}
