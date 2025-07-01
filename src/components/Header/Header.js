@@ -31,7 +31,8 @@ function Header() {
                         <nav className="h-100">
                             <ScrollResetLink to="/about">Our Company</ScrollResetLink>
                             <ScrollResetLink to="/products">Loan Products</ScrollResetLink>
-                            <ScrollResetLink to="/mobile-app">Mobile App</ScrollResetLink>
+                            <ScrollResetLink to="/reviews">Reviews</ScrollResetLink>
+                            {/* <ScrollResetLink to="/mobile-app">Mobile App</ScrollResetLink> */}
                         </nav>
                     </div>
                     <a href="tel:+15129169955" className="phone-link">
