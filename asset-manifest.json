@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/counselors-mortgage/static/css/main.9cf361b9.css",
-    "main.js": "/counselors-mortgage/static/js/main.1a614662.js",
+    "main.css": "/counselors-mortgage/static/css/main.f1d6e7f8.css",
+    "main.js": "/counselors-mortgage/static/js/main.2ebf792a.js",
+    "static/media/lance-walker.jpg": "/counselors-mortgage/static/media/lance-walker.df70174ae932469ab046.jpg",
     "static/media/house.png": "/counselors-mortgage/static/media/house.60552e68abb929babe8f.png",
+    "static/media/jim-walker.jpg": "/counselors-mortgage/static/media/jim-walker.c4aa71e24cba3060604e.jpg",
     "static/media/living-room.jpg": "/counselors-mortgage/static/media/living-room.0f1457bff4be1a54012b.jpg",
     "static/media/phone.png": "/counselors-mortgage/static/media/phone.0e99f4c91dfb5365ac6d.png",
+    "static/media/andrea-walker.jpg": "/counselors-mortgage/static/media/andrea-walker.f8500e2bf06a5cf30c26.jpg",
     "static/media/zillow.png": "/counselors-mortgage/static/media/zillow.4373f987d1b95fa372bd.png",
     "static/media/logo.png": "/counselors-mortgage/static/media/logo.b3c980f43f14db58d23a.png",
     "static/media/quote-right.png": "/counselors-mortgage/static/media/quote-right.a9fee6ca64c02eb581bb.png",
     "static/media/quote-left.png": "/counselors-mortgage/static/media/quote-left.84067d01016f5ee2f803.png",
+    "static/media/equal-housing.png": "/counselors-mortgage/static/media/equal-housing.ddf4564d05d194373a41.png",
     "static/media/icon-house.png": "/counselors-mortgage/static/media/icon-house.57fec11f804d946bbe07.png",
     "static/media/icon-self.png": "/counselors-mortgage/static/media/icon-self.e99edde0bb8460b1f071.png",
+    "static/media/logo-white.png": "/counselors-mortgage/static/media/logo-white.362ac6ee01d4fa4cf692.png",
+    "static/media/phone-small.png": "/counselors-mortgage/static/media/phone-small.5e791ae0efedfb6c1a90.png",
     "index.html": "/counselors-mortgage/index.html",
     "static/media/star.svg": "/counselors-mortgage/static/media/star.0764f2c5525a5a5c39f1c1b3edd45ef2.svg",
-    "main.9cf361b9.css.map": "/counselors-mortgage/static/css/main.9cf361b9.css.map",
-    "main.1a614662.js.map": "/counselors-mortgage/static/js/main.1a614662.js.map"
+    "main.f1d6e7f8.css.map": "/counselors-mortgage/static/css/main.f1d6e7f8.css.map",
+    "main.2ebf792a.js.map": "/counselors-mortgage/static/js/main.2ebf792a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cf361b9.css",
-    "static/js/main.1a614662.js"
+    "static/css/main.f1d6e7f8.css",
+    "static/js/main.2ebf792a.js"
   ]
 }
