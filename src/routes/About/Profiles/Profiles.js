@@ -18,7 +18,7 @@ function Profiles() {
             >
                 <p>
                     <span>Jim, the founder of our company, built a legacy of happy clients and a well-run, successful business. He is deeply missed. You can learn more about Jim </span>
-                    <a className="inline-link" href="https://www.harrellfuneralhomes.com/obituaries/James-Darby-Walker?obId=32630532">here</a>.
+                    <a className="inline-link" target="_blank" href="https://www.harrellfuneralhomes.com/obituaries/James-Darby-Walker?obId=32630532">here</a>.
                 </p>
             </Profile>
             <Profile
