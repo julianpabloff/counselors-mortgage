@@ -20,6 +20,10 @@ a.arrow-link svg {
     transition: transform 0.25s;
 }
 
+a.arrow-link.small svg {
+    height: 0.8rem;
+}
+
 a.arrow-link:hover {
     font-weight: 500;
 }
@@ -29,5 +33,5 @@ a.arrow-link.small:hover {
 }
 
 a.arrow-link:hover svg {
-    transform: translateX(5px);
+    transform: translateX(0.2em);
 }

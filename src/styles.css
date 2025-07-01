@@ -108,6 +108,7 @@ h3 {
 .subheading {
 	font-weight: 300;
 	font-style: italic;
+	letter-spacing: 2%;
 	color: var(--light-blue);
 }
 
