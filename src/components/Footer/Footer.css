@@ -1,5 +1,113 @@
-div.footer {
-    height: 700px;
+footer {
+    padding: 120px 0 50px 0;
     color: white;
     background-color: var(--dark-blue);
+}
+
+div.footer-content {
+    margin-bottom: 100px;
+}
+
+div.footer-content > div {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+footer h2 {
+    position: relative;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+}
+
+footer h2 span {
+    position: relative;
+    z-index: 1;
+}
+
+footer h2::after {
+    width: 94.1%;
+    height: 0.9em;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: "";
+    background-color: var(--light-blue);
+}
+
+div.license img {
+    height: 3.5rem;
+}
+
+div.office {
+    --offset: 1.3rem;
+    position: relative;
+    left: var(--offset);
+}
+
+div.office::before {
+    width: 0.5rem;
+    height: 100%;
+    position: absolute;
+    left: calc(var(--offset) * -1);
+    content: "";
+    background-color: var(--light-blue);
+}
+
+div.office h3 {
+    font-size: 1.5rem;
+}
+
+div.office p {
+    font-size: 1.1rem;
+    font-weight: 350;
+}
+
+div.footer-content div.contact {
+    justify-content: center;
+    align-items: flex-end;
+    gap: 25px;
+}
+
+div.contact h3 span {
+    position: relative;
+    z-index: 1;
+}
+
+div.contact h3::after {
+    width: 130%;
+    height: 0.7em;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    content: "";
+    background-color: var(--light-blue);
+}
+
+
+div.contact a {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: 5%;
+    transition: letter-spacing 0.1s;
+}
+
+div.contact a:hover {
+    letter-spacing: 7%;
+    text-decoration: underline;
+}
+
+div.contact img {
+    width: 1.4rem;
+}
+
+div.copyright img {
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+div.copyright p {
+    font-size: 0.7rem;
 }

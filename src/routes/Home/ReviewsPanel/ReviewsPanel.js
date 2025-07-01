@@ -28,7 +28,7 @@ function ReviewsPanel() {
                     <div className="reviews-container">
                         <ReviewSlider reviews={reviewsJSON}/>
                     </div>
-                    <ArrowLink to="/reviews">See all reviews</ArrowLink>
+                    <ArrowLink to="/reviews" color="var(--dark-blue)">See all reviews</ArrowLink>
                 </div>
             </div>
         </section>

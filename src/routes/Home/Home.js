@@ -7,7 +7,7 @@ function Home() {
         <div>
             <LandingImage/>
             <ReviewsPanel/>
-            <AboutPanel/>
+            {/* <AboutPanel/> */}
             {/* <ProductsPanel/> */}
         </div>
     );
