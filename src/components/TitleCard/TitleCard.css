@@ -1,0 +1,24 @@
+div.title-card {
+    padding: 1.5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.title-card.light {
+    color: var(--dark-blue);
+    background-color: var(--faded-blue);
+}
+
+div.title-card.dark {
+    color: white;
+    background-color: var(--dark-blue);
+}
+
+div.title-card p {
+    max-width: 28rem;
+    font-size: 1.3rem;
+    font-weight: 350;
+    line-height: 1.5em;
+}

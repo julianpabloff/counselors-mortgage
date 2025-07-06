@@ -1,20 +1,12 @@
-div.loan-landing {
-    height: 550px;
+div.products-landing {
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
     background-image: url('../../../assets/living-room.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 25%;
-}
-
-div.loan-landing div.title-card {
-    padding: 1.5rem 5rem;
-    color: white;
-    background-color: var(--dark-blue);
-    text-align: center;
-}
-
-div.title-card p {
-    max-width: 28rem;
-    font-size: 1.3rem;
-    font-weight: 350;
 }
