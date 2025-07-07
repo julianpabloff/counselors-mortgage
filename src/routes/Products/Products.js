@@ -33,10 +33,10 @@ productsData.map(category => {
 
 function Products() {
     return (
-        <div>
+        <>
             <ProductsLanding productNavButtons={productNavButtons}/>
             {loanCategories}
-        </div>
+        </>
     );
 }
 

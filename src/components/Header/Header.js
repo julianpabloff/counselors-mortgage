@@ -18,7 +18,7 @@ function ScrollResetLink({ to, children }) {
 
 function Header() {
     return (
-        <div>
+        <>
             <header className="max-w-container">
                 <div className="max-w align-center justify-between">
                     <div className="flex h-100">
@@ -32,7 +32,6 @@ function Header() {
                             <ScrollResetLink to="/about">Our Company</ScrollResetLink>
                             <ScrollResetLink to="/products">Loan Products</ScrollResetLink>
                             <ScrollResetLink to="/reviews">Reviews</ScrollResetLink>
-                            {/* <ScrollResetLink to="/mobile-app">Mobile App</ScrollResetLink> */}
                         </nav>
                     </div>
                     <a href="tel:+15129169955" className="phone-link">
@@ -42,7 +41,7 @@ function Header() {
                 </div>
             </header>
             <div className="dummy-header"></div>
-        </div>
+        </>
     );
 }
 

@@ -57,6 +57,11 @@ a.phone-link {
 	letter-spacing: 0.06rem;
 	color: white;
 	background-color: var(--dark-blue);
+	transition: background-color 0.3s;
+}
+
+a.phone-link:hover {
+	background-color: var(--light-blue);
 }
 
 a.phone-link img {

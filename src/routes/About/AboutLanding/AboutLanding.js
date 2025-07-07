@@ -1,5 +1,6 @@
+import FiveStars from '../../../components/FiveStars/FiveStars.js';
+
 import logo from '../../../assets/logo.png';
-import star from '../../../assets/star.svg';
 
 import './AboutLanding.css';
 
@@ -8,13 +9,7 @@ function AboutLanding() {
         <div className="about-landing">
             <img src={logo} alt="Logo"/>
             <h1>Meet Counselors Mortgage</h1>
-            <div className="five-stars">
-                <img className="star" src={star} alt="Star"/>
-                <img className="star" src={star} alt="Star"/>
-                <img className="star" src={star} alt="Star"/>
-                <img className="star" src={star} alt="Star"/>
-                <img className="star" src={star} alt="Star"/>
-            </div>
+            <FiveStars/>
         </div>
     );
 }

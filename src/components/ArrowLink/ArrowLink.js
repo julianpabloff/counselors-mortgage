@@ -12,6 +12,7 @@ function ArrowLink({ color, size, to, newtab, children }) {
             to={to}
             className={`arrow-link ${arrowSize}`}
             target={newtab ? '_blank' : '_self'}
+            // onClick={() => window.scrollTo(0,0)}
         >
             {children}
             <ArrowRight color={arrowColor}/>

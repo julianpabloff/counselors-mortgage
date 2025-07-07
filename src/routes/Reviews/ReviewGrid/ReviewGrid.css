@@ -1,0 +1,36 @@
+section.reviews {
+    margin-bottom: 200px;
+}
+
+section.reviews h2 {
+    width: fit-content;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+section.reviews h2 span {
+    position: relative;
+    z-index: 1;
+}
+
+section.reviews h2::after {
+    content: '';
+    width: 120%;
+    height: 1.2em;
+    position: absolute;
+    top: 50%;
+    display: block;
+    background-color: var(--faded-blue);
+}
+
+section.reviews div.review-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7rem;
+}
+
+section.reviews div.review-grid > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}

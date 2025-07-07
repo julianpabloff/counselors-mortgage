@@ -4,11 +4,11 @@ import Profiles from './Profiles/Profiles.js';
 
 function About() {
     return (
-        <div>
+        <>
             <AboutLanding/>
             <TextSection/>
             <Profiles/>
-        </div>
+        </>
     );
 }
 

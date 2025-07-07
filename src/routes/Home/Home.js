@@ -4,12 +4,12 @@ import AboutPanel from './AboutPanel/AboutPanel.js';
 
 function Home() {
     return (
-        <div>
+        <>
             <LandingImage/>
             <ReviewsPanel/>
             {/* <AboutPanel/> */}
             {/* <ProductsPanel/> */}
-        </div>
+        </>
     );
 }
 

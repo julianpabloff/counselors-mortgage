@@ -1,5 +1,5 @@
-import leftQuote from '../../../../assets/quote-left.png';
-import rightQuote from '../../../../assets/quote-right.png';
+import leftQuote from '../../assets/quote-left.png';
+import rightQuote from '../../assets/quote-right.png';
 
 import './Review.css';
 

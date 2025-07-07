@@ -21,12 +21,12 @@ function ZillowReviews () {
                     link="https://www.zillow.com/lender-profile/Jim%20D%20Walker/"
                 />
                 <ProfileLink
-                    name="Jim Walker"
+                    name="Andrea Walker"
                     image={zillowAndrea}
                     link="https://www.zillow.com/lender-profile/awalker780/"
                 />
             </div>
-            <FiveStars/>
+            <FiveStars color="var(--zillow-blue)" size="small"/>
         </div>
     );
 }

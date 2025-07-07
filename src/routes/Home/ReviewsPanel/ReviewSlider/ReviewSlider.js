@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Review from '../Review/Review.js';
+import Review from '../../../../components/Review/Review.js';
 
 import './ReviewSlider.css';
 
