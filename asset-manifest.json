@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/counselors-mortgage/static/css/main.ef0858a4.css",
-    "main.js": "/counselors-mortgage/static/js/main.93f1a2ac.js",
+    "main.css": "/counselors-mortgage/static/css/main.cb424f66.css",
+    "main.js": "/counselors-mortgage/static/js/main.99ca9e24.js",
     "static/media/lance-walker.jpg": "/counselors-mortgage/static/media/lance-walker.df70174ae932469ab046.jpg",
     "static/media/house.png": "/counselors-mortgage/static/media/house.60552e68abb929babe8f.png",
+    "static/media/desk.png": "/counselors-mortgage/static/media/desk.aa3d1380109ade231187.png",
     "static/media/jim-walker.jpg": "/counselors-mortgage/static/media/jim-walker.c4aa71e24cba3060604e.jpg",
     "static/media/living-room.jpg": "/counselors-mortgage/static/media/living-room.0f1457bff4be1a54012b.jpg",
     "static/media/phone.png": "/counselors-mortgage/static/media/phone.0e99f4c91dfb5365ac6d.png",
@@ -18,12 +19,11 @@
     "static/media/logo-white.png": "/counselors-mortgage/static/media/logo-white.362ac6ee01d4fa4cf692.png",
     "static/media/phone-small.png": "/counselors-mortgage/static/media/phone-small.5e791ae0efedfb6c1a90.png",
     "index.html": "/counselors-mortgage/index.html",
-    "static/media/star.svg": "/counselors-mortgage/static/media/star.0764f2c5525a5a5c39f1c1b3edd45ef2.svg",
-    "main.ef0858a4.css.map": "/counselors-mortgage/static/css/main.ef0858a4.css.map",
-    "main.93f1a2ac.js.map": "/counselors-mortgage/static/js/main.93f1a2ac.js.map"
+    "main.cb424f66.css.map": "/counselors-mortgage/static/css/main.cb424f66.css.map",
+    "main.99ca9e24.js.map": "/counselors-mortgage/static/js/main.99ca9e24.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef0858a4.css",
-    "static/js/main.93f1a2ac.js"
+    "static/css/main.cb424f66.css",
+    "static/js/main.99ca9e24.js"
   ]
 }
