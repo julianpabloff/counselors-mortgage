@@ -1,0 +1,10 @@
+a.profile-link {
+	display: flex;
+	background-color: var(--faded-blue);
+	padding: 1rem;
+}
+
+a.profile-link img {
+	height: 3rem;
+	border-radius: 50%;
+}

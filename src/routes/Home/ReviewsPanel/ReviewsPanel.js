@@ -1,6 +1,6 @@
 import ArrowLink from '../../../components/ArrowLink/ArrowLink.js';
-import ZillowButton from '../ZillowButton/ZillowButton.js';
-import ReviewSlider from '../ReviewSlider/ReviewSlider.js';
+import ZillowButton from './ZillowButton/ZillowButton.js';
+import ReviewSlider from './ReviewSlider/ReviewSlider.js';
 
 import '../../../styles.css';
 import './ReviewsPanel.css';

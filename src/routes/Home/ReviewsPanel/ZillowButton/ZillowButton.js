@@ -1,4 +1,4 @@
-import zillowLogo from '../../../assets/zillow.png';
+import zillowLogo from '../../../../assets/zillow.png';
 
 import './ZillowButton.css';
 

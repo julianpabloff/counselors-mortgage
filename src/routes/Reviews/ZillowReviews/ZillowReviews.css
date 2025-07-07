@@ -1,0 +1,34 @@
+div.zillow-reviews {
+	padding: 125px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 2rem;
+}
+
+div.zillow-reviews div.heading {
+	display: flex;
+	position: relative;
+	align-items: flex-end;
+	gap: 0.8rem;
+}
+
+div.zillow-reviews div.heading img {
+	height: 3.2rem;
+}
+
+div.zillow-reviews div.heading span {
+	font-size: 1.6rem;
+	font-weight: 350;
+	font-style: italic;
+	letter-spacing: 10%;
+	text-transform: uppercase;
+	color: var(--zillow-blue);
+	position: relative;
+	bottom: 0.4rem;
+}
+
+div.zillow-reviews div.profile-links {
+	display: flex;
+	gap: 3rem;
+}

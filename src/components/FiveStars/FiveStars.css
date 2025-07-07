@@ -1,0 +1,8 @@
+div.five-stars {
+	display: flex;
+	gap: 2.5rem; /* old: 3rem */
+}
+
+div.five-stars img {
+	height: 2rem;
+}
