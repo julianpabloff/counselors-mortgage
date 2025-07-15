@@ -1,6 +1,7 @@
 section.reviews-section {
     height: 43rem;
-    background-color: #e8e8e8;
+    background-color: var(--faded-blue);
+    /* background-color: #e8e8e8; */
 }
 
 div.reviews-panel > div {
@@ -8,7 +9,7 @@ div.reviews-panel > div {
 }
 
 div.reviews-panel div.left {
-    gap: 2.5rem;
+    gap: 4.5rem;
 }
 
 div.reviews-panel h3 {

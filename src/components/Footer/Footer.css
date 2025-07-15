@@ -26,7 +26,7 @@ footer h2 span {
 }
 
 footer h2::after {
-    width: 94.1%;
+    width: 112%;
     height: 0.9em;
     position: absolute;
     top: 50%;

@@ -1,9 +1,15 @@
 import ArrowLink from '../../../components/ArrowLink/ArrowLink.js';
 
+import housesLarge from '../../../assets/houses.jpg';
+import housesMedium from '../../../assets/houses-tablet.jpg';
+import housesSmall from '../../../assets/houses-mobile.jpg';
+
 import '../../../styles.css';
 import './LandingImage.css';
 
 function LandingImage() {
+    const srcset = `${housesSmall} 724w, ${housesMedium} 1253w, ${housesLarge} 3864w`;
+
     return (
         <div className="landing-container">
             <div className="flex justify-center">
@@ -13,6 +19,14 @@ function LandingImage() {
                     <ArrowLink to="/products" color="white">Loan Products</ArrowLink>
                 </div>
             </div>
+            <img
+                srcset={srcset}
+                sizes="(width <= 500px) 724px,
+                       (width <= 1000px) 1253px,
+                       3864px"
+                src={housesLarge}
+                alt="Row of houses in Texas"
+            />
         </div>
     );
 }

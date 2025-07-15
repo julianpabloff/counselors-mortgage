@@ -16,12 +16,14 @@ function ReviewsPanel() {
                         <h2>From Our Clients</h2>
                         <h3 className="subheading">What our clients say about their experience</h3>
                     </div>
-                    <p>We have our clients to thank for our success, as all our business comes from our client's referrals. Many of them do repeat business with us because they are satisfied with their experience.</p>
-                    <ul>
-                        <li>We have over a <b>100 reviews</b> on Zillow for Jim and Andrea</li>
-                        <li>100% of our reviews are <b>5-star</b></li>
-                        <li>Many of our clients say their interest rate is <b>lower than expected</b></li>
-                    </ul>
+                    <div>
+                        <p>We have our clients to thank for our success, as all our business comes from our client's referrals. Many of them do repeat business with us because they are satisfied with their experience.</p>
+                        <ul>
+                            <li>We have over a <b>100 reviews</b> on Zillow for Jim and Andrea</li>
+                            <li>100% of our reviews are <b>5-star</b></li>
+                            <li>Many of our clients say their interest rate is <b>lower than expected</b></li>
+                        </ul>
+                    </div>
                     <ZillowButton/>
                 </div>
                 <div className="right flex column justify-between">

@@ -1,23 +1,39 @@
 a.zillow-button {
     width: fit-content;
-    padding: 0.8rem;
+    position: relative;
+    padding: 0.8rem 1rem;
     border-radius: 1rem;
-    border: 0.2rem solid var(--light-blue);
-    display: flex;
-    align-items: center;
-    gap: 1rem;
     font-size: 1.4rem;
     font-weight: 350;
     letter-spacing: 0.05em;
+    /* border: 0.2rem solid white; */
     color: var(--light-blue);
-    background-color: white;
+    /* background-color: white; */
     transition: color 0.2s, background-color 0.4s, border-color 0.2s;
 }
 
-a.zillow-button:hover {
-    color: var(--dark-blue);
-    background-color: var(--faded-blue);
-    border-color: var(--dark-blue);
+a.zillow-button > div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    z-index: 1;
+}
+
+a.zillow-button::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 1rem;
+    background-color: white;
+    transition: transform 0.3s;
+}
+
+a.zillow-button:hover::after {
+    transform: scale(1.03, 1.1);
 }
 
 img.zillow-logo {

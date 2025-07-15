@@ -132,7 +132,7 @@ export const productsData = [
                     'Key Highlights:',
                     [
                         'Financing available for land purchase and full construction',
-                        'Designed for builders with a proven track record (At least three completed new builds, or two builds + one major renovation exceeding $200,000',
+                        'Designed for builders with a proven track record (At least three completed new builds, or two builds + one major renovation exceeding $200,000)',
                         'Flexible draw schedules',
                         'Streamlined approval process'
                     ],

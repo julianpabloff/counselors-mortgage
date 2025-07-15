@@ -1,11 +1,6 @@
 div.landing-container {
-    height: 500px;
-    background-image: url('../../../assets/house.png');
-    /* background-image: url('../../../assets/houses.jpg'); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center 15%;
-    /* background-position: center 53%; */
+    height: 600px;
+    position: relative;
 }
 
 div.landing-text {
@@ -13,6 +8,7 @@ div.landing-text {
     top: 75px;
     right: 10%;
     color: white;
+    z-index: 1;
 }
 
 div.landing-text h1 {
@@ -24,4 +20,13 @@ div.landing-text p {
     font-size: 1.4rem;
     font-weight: 350;
     margin-bottom: 2rem;
+}
+
+div.landing-container img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    object-position: center 58%;
 }

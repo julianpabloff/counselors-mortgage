@@ -7,8 +7,10 @@ function ZillowButton() {
 
     return (
         <a href={url} target="_blank" className="zillow-button">
-            Visit reviews on
-            <img className="zillow-logo" src={zillowLogo}/>
+            <div>
+                Visit reviews on
+                <img className="zillow-logo" src={zillowLogo}/>
+            </div>
         </a>
     );
 }
