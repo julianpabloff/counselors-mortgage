@@ -1,25 +1,27 @@
 div.about-landing {
-	padding: 100px 0;
+	padding: 125px 0;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	background-color: var(--faded-blue);
+}
+
+div.about-landing > div {
+	width: fit-content;
+	padding: 2rem 7rem;
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	gap: 2.5rem;
 	background-color: var(--faded-blue);
+	z-index: 1;
 }
 
-div.about-landing > img {
-	height: 10rem;
+div.about-landing img.logo {
+	height: 9rem;
 }
 
 div.about-landing h1 {
 	text-align: center;
-}
-
-div.five-stars {
-	display: flex;
-	gap: 3rem;
-}
-
-img.star {
-	height: 2rem;
 }

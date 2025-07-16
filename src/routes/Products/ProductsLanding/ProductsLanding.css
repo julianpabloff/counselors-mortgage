@@ -6,6 +6,7 @@ div.products-landing {
     align-items: center;
     justify-content: space-evenly;
     gap: 50px;
+    background-color: var(--faded-blue);
 }
 
 div.products-landing > div {
@@ -13,6 +14,7 @@ div.products-landing > div {
     z-index: 1;
 }
 
-div.products-landing img {
+div.products-landing img.landing-image {
     object-position: center 38%;
+    opacity: 0.65;
 }

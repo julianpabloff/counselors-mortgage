@@ -9,7 +9,7 @@ a.loan-nav {
     text-transform: uppercase;
     text-align: center;
     font-size: 1.6rem;
-    font-weight: 200;
+    font-weight: 300;
     color: white;
     background-color: var(--dark-blue);
     transition: background-color 0.3s, border-radius 0.3s;

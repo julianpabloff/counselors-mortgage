@@ -25,7 +25,7 @@ function ProductsLanding({ productNavButtons }) {
                        (width <= 1000px) 1253px,
                        3864px"
                 src={roomLarge}
-                alt="Row of houses in Texas"
+                alt="Fancy living room"
             />
         </div>
     );
