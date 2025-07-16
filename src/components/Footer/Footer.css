@@ -11,13 +11,16 @@ div.footer-content {
 div.footer-content > div {
     display: flex;
     flex-direction: column;
+}
+
+div.footer-content div.left {
     gap: 50px;
 }
 
 footer h2 {
     position: relative;
     letter-spacing: 0.1em;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 footer h2 span {
@@ -33,10 +36,6 @@ footer h2::after {
     left: 0;
     content: "";
     background-color: var(--light-blue);
-}
-
-div.license img {
-    height: 3.5rem;
 }
 
 div.office {
@@ -62,18 +61,30 @@ div.office p {
     font-weight: 330;
 }
 
-div.footer-content div.contact {
-    justify-content: center;
-    align-items: flex-end;
-    gap: 25px;
+div.links {
+    gap: 1rem;
 }
 
-div.contact h3 span {
+div.footer-content div.right {
+    align-items: flex-end;
+}
+
+div.right img.equal-housing {
+    height: 6.5rem;
+    margin-bottom: 4rem;
+}
+
+div.contact {
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+div.footer-content div.right h3 span {
     position: relative;
     z-index: 1;
 }
 
-div.contact h3::after {
+div.footer-content div.right h3::after {
     width: 130%;
     height: 0.7em;
     position: absolute;
@@ -84,7 +95,7 @@ div.contact h3::after {
 }
 
 
-div.contact a {
+div.footer-content div.right a {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -93,18 +104,18 @@ div.contact a {
     transition: letter-spacing 0.1s;
 }
 
-div.contact a:hover {
+div.footer-content div.right a:hover {
     letter-spacing: 7%;
     text-decoration: underline;
 }
 
-div.contact img {
+div.footer-content div.contact img {
     width: 1.4rem;
 }
 
 div.copyright img {
-    height: 3rem;
-    margin-bottom: 1rem;
+    height: 4rem;
+    margin-bottom: 0.7rem;
 }
 
 div.copyright p {

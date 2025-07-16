@@ -13,32 +13,34 @@ function Footer() {
         <footer className="footer max-w-container">
             <div className="max-w column align-center">
                 <div className="footer-content flex justify-between w-100">
-                    <div>
-                        <h2><span>Counselors Mortgage</span></h2>
-                        <div className="license flex justify-between align-center">
-                            <div>
-                                <h3 className="mb-1">NMLS# 323851</h3>
-                                <ArrowLink to="/license" color="white">License</ArrowLink>
-                            </div>
-                            <img src={equalHousing} alt="Equal Housing Opportunity"/>
+                    <div className="left">
+                        <div>
+                            <h2><span>Counselors Mortgage</span></h2>
+                            <h3 className="mb-1">NMLS# 323851</h3>
                         </div>
                         <div className="office">
                             <h3 className="mb-1">Office</h3>
                             <p>5500 Travis Green Ln</p>
                             <p>Austin, TX 78735-6322</p>
                         </div>
-                        <ArrowLink to="/privacy-policy" color="white">Privacy Policy</ArrowLink>
+                        <div className="links flex column">
+                            <ArrowLink to="/license" color="white">License</ArrowLink>
+                            <ArrowLink to="/privacy-policy" color="white">Privacy Policy</ArrowLink>
+                        </div>
                     </div>
-                    <div className="contact">
-                        <h3 className="relative mb-5"><span>Get in touch</span></h3>
-                        <a href="mailto:awalker@couselorsmortgage.com">
-                            AWalker@CouselorsMortgage.com
-                            <img src={email} alt="Email"/>
-                        </a>
-                        <a href="tel:+15129169955">
-                            (512) 916-9955
-                            <img src={phone} alt="Phone"/>
-                        </a>
+                    <div className="right">
+                        <img src={equalHousing} className="equal-housing" alt="Equal Housing Opportunity"/>
+                        <div className="contact flex column">
+                            <h3 className="relative mb-5"><span>Get in touch</span></h3>
+                            <a href="mailto:awalker@couselorsmortgage.com">
+                                AWalker@CouselorsMortgage.com
+                                <img src={email} alt="Email"/>
+                            </a>
+                            <a href="tel:+15129169955">
+                                (512) 916-9955
+                                <img src={phone} alt="Phone"/>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="copyright flex column align-center">
