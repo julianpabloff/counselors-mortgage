@@ -1,5 +1,3 @@
-import FiveStars from '../../../components/FiveStars/FiveStars.js';
-
 import logo from '../../../assets/logo.png';
 
 import './AboutLanding.css';

@@ -128,6 +128,14 @@ ul {
 	line-height: 2em;
 }
 
+img.landing-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+}
+
 :target {
     scroll-margin-top: 150px;
 }

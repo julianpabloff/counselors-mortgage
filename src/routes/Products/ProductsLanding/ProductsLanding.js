@@ -1,5 +1,9 @@
 import TitleCard from '../../../components/TitleCard/TitleCard.js';
 
+import roomLarge from '../../../assets/living-room.jpg';
+import roomMedium from '../../../assets/living-room-tablet.jpg';
+import roomSmall from '../../../assets/living-room-mobile.jpg';
+
 import '../../../styles.css';
 import './ProductsLanding.css';
 
@@ -14,6 +18,15 @@ function ProductsLanding({ productNavButtons }) {
                     {productNavButtons}
                 </div>
             </div>
+            <img
+                className="landing-image"
+                srcset={`${roomSmall} 724w, ${roomMedium} 1253w, ${roomLarge} 3864w`}
+                sizes="(width <= 500px) 724px,
+                       (width <= 1000px) 1253px,
+                       3864px"
+                src={roomLarge}
+                alt="Row of houses in Texas"
+            />
         </div>
     );
 }

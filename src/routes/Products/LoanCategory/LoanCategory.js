@@ -1,3 +1,4 @@
+import BannerHeading from '../../../components/BannerHeading/BannerHeading.js';
 import LoanProduct from '../LoanProduct/LoanProduct.js';
 
 import './LoanCategory.css';
@@ -15,12 +16,12 @@ function LoanCategory({ hashId, title, theme, products }) {
     });
 
     return (
-        <div key={hashId} className={`max-w-container ${theme}`}>
-            <section className="max-w-small loan-category">
-                <h2 id={hashId}>{title}</h2>
-                {loanProducts}
-            </section>
-        </div>
+        <section className={`loan-category ${theme}`}>
+            <BannerHeading key={hashId + "-heading"} side="left" hashId={hashId}>{title}</BannerHeading>
+            <div key={hashId} className="max-w-container">
+                <div className="max-w-small loan-products">{loanProducts}</div>
+            </div>
+        </section>
     );
 }
 

@@ -3,8 +3,10 @@ import './ProfileLink.css';
 function ProfileLink({ name, image, link }) {
     return (
         <a href={link} className="profile-link" target="_blank">
-            <img src={image} alt={name}/>
-            {name}
+            <div>
+                <img src={image} alt={name}/>
+                {name}
+            </div>
         </a>
     );
 }

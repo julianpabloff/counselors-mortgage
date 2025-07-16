@@ -1,6 +1,6 @@
 a.loan-nav {
-    width: 14rem;
-    height: 14rem;
+    width: 13rem;
+    height: 13rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@ a.loan-nav {
     justify-content: space-evenly;
     text-transform: uppercase;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 200;
     color: white;
     background-color: var(--dark-blue);
@@ -16,7 +16,7 @@ a.loan-nav {
 }
 
 a.loan-nav.smaller {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 a.loan-nav img {
