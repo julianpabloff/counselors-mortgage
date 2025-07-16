@@ -1,26 +1,26 @@
-header, div.dummy-header {
-	height: 100px;
-}
-
 header {
-	background-color: white;
 	position: fixed;
+	background-color: white;
 	z-index: 2;
 }
 
-div.logo {
+div.header-main {
+	height: 6rem;
+}
+
+a.home {
 	height: 100%;
 	margin-right: 1.5rem;
 	display: flex;
 	align-items: center;
 }
 
-div.logo img {
+a.home img {
 	width: 5rem;
 	margin-right: 1rem;
 }
 
-div.logo span {
+a.home span {
 	width: min-content;
 	line-height: 1.3rem;
 	font-size: 1.3rem;
@@ -66,4 +66,47 @@ a.phone-link:hover {
 
 a.phone-link img {
 	height: 1.3rem;
+}
+
+div.header-addon {
+	display: none;
+	height: 3rem;
+	background-color: var(--faded-blue);
+}
+
+div.header-addon nav {
+	max-width: 500px;
+	justify-content: space-between;
+}
+
+div.header-addon a {
+	padding: 0;
+}
+
+div.dummy-header {
+	height: 6rem;
+}
+
+@media screen and (max-width: 900px) {
+	header div.header-main {
+		height: 5rem;
+	}
+	a.home span {
+		width: initial;
+	}
+	div.header-main nav {
+		display: none;
+	}
+	div.header-addon {
+		display: flex;
+	}
+	div.dummy-header {
+		height: 8rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	a.home span {
+		width: min-content;
+	}
 }

@@ -22,7 +22,7 @@
 	--zillow-blue: #006AFE;
 	--max-width: 1400px;
 	--max-width-small: 900px;
-    --side-padding: 8vw;
+    --side-padding: 6vw;
 }
 
 /* Colors */
@@ -43,7 +43,8 @@
 .max-w-container {
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 
 .max-w {
@@ -154,4 +155,24 @@ html {
 body {
     color: var(--dark-blue);
     background-color: white;
+}
+
+div#root {
+	overflow-x: hidden;
+}
+
+@media screen and (max-width: 1200px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	html {
+		font-size: 12px;
+	}
+
+	h1 {
+		font-size: 2.5rem;
+	}
 }

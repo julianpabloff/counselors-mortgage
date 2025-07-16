@@ -127,14 +127,14 @@ export const productsData = [
                     'Our ground-up construction loans are designed to finance the entire building process — from land acquisition to the completion of a brand-new structure. Whether it\'s a dream home or an investment property, building from the ground up requires financing that offers speed, flexibility, and reliability.',
                     'These loans are tailored for experienced builders who meet the following qualifications:',
                     [
-                        '[QUALIFICATIONS NEEDED HERE]'
+                        'Designed for builders with a proven track record (At least three completed new builds, or two builds + one major renovation exceeding $200,000)'
                     ],
                     'Key Highlights:',
                     [
                         'Financing available for land purchase and full construction',
-                        'Designed for builders with a proven track record (At least three completed new builds, or two builds + one major renovation exceeding $200,000)',
-                        'Flexible draw schedules',
-                        'Streamlined approval process'
+                        '12 and 18-month term options with interest-only payments.',
+                        'Streamlined approval process',
+                        'Flexible draw schedules'
                     ],
                     'If you are ready to break ground, our construction loans provide the capital and confidence to bring your vision to life—every step of the way.'
                 ]

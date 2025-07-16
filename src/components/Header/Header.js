@@ -8,9 +8,9 @@ import './Header.css';
 
 const scrollToTop = () => window.scrollTo(0, 0);
 
-function ScrollResetLink({ to, children }) {
+function ScrollResetLink({ to, className, children }) {
     return (
-        <NavLink to={to} onClick={scrollToTop}>
+        <NavLink to={to} className={className} onClick={scrollToTop}>
             {children}
         </NavLink>
     );
@@ -20,13 +20,11 @@ function Header() {
     return (
         <>
             <header className="max-w-container">
-                <div className="max-w align-center justify-between">
+                <div className="header-main max-w align-center justify-between">
                     <div className="flex h-100">
-                        <ScrollResetLink to="/">
-                            <div className="logo">
-                                <img src={logo} alt="Logo"/>
-                                <span>Counselors Mortgage</span>
-                            </div>
+                        <ScrollResetLink to="/" className="home">
+                            <img src={logo} alt="Logo"/>
+                            <span>Counselors Mortgage</span>
                         </ScrollResetLink>
                         <nav className="h-100">
                             <ScrollResetLink to="/about">Our Company</ScrollResetLink>
@@ -38,6 +36,13 @@ function Header() {
                         (512) 916-9955
                         <img src={phone} alt="Phone"/>
                     </a>
+                </div>
+                <div className="header-addon max-w-container justify-center">
+                    <nav className="max-w">
+                        <ScrollResetLink to="/about">Our Company</ScrollResetLink>
+                        <ScrollResetLink to="/products">Loan Products</ScrollResetLink>
+                        <ScrollResetLink to="/reviews">Reviews</ScrollResetLink>
+                    </nav>
                 </div>
             </header>
             <div className="dummy-header"></div>

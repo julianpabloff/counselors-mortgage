@@ -1,7 +1,10 @@
 section.reviews-section {
-    height: 43rem;
     background-color: var(--faded-blue);
     /* background-color: #e8e8e8; */
+}
+
+div.reviews-panel {
+    height: 43rem;
 }
 
 div.reviews-panel > div {
