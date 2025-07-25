@@ -28,8 +28,8 @@ function generateReviewsJSX(reviews) {
     Uses knowledge of where in the reviews array we are, in order to get
     the next page of reviews, and then updates the new array location
 */
-function getReviews(reviews, startIndex) {
-    const charMax = 800;
+function getReviews(reviews, startIndex, charMax = 800) {
+    console.log('getting reviews w/ charMax at', charMax);
     const totalReviews = reviews.length;
 
     let i = startIndex;
@@ -78,17 +78,27 @@ function ReviewTransitioner({ reviewsJSX }) {
 function ReviewSlider({ reviews }) {
     const [reviewsJSX, setReviewsJSX] = useState();
     const [nextIndex, setNextIndex] = useState(0);
+    const [charMax, setCharMax] = useState(800);
 
     function cycleReviews() {
-        const [jsx, next] = getReviews(reviews, nextIndex);
+        const [jsx, next] = getReviews(reviews, nextIndex, charMax);
         setReviewsJSX(jsx);
         setNextIndex(next);
     }
 
+    function determineCharMax() {
+        const width = window.innerWidth;
+        if (width < 1000) setCharMax(400);
+        else setCharMax(800);
+    }
+
     useEffect(() => { // init
         shuffleReviews(reviews);
+        determineCharMax();
         cycleReviews();
     }, []);
+
+    useEffect(determineCharMax, [window.innerWidth]);
 
     const cycleTime = 7000;
     useEffect(() => {setTimeout(cycleReviews, cycleTime)}, [nextIndex]);

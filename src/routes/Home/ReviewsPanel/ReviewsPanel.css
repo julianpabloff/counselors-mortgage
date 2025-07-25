@@ -4,7 +4,7 @@ section.reviews-section {
 }
 
 div.reviews-panel {
-    height: 43rem;
+    height: 44rem;
 }
 
 div.reviews-panel > div {
@@ -34,4 +34,31 @@ div.reviews-panel div.right {
 
 div.reviews-container {
     flex-grow: 1;
+}
+
+@media screen and (max-width: 1200px) {
+    div.reviews-panel div.left {
+        gap: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    div.reviews-panel {
+        height: initial;
+        padding: min(11vw, 65px) 0;
+        flex-direction: column;
+    }
+
+    div.reviews-panel > div {
+        width: 100%;
+    }
+
+    div.reviews-panel div.left {
+        margin-bottom: 5rem;
+    }
+
+    div.reviews-panel div.right {
+        height: 32rem;
+        padding: 0;
+    }
 }
