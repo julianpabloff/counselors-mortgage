@@ -7,7 +7,6 @@ div.about-landing {
 }
 
 div.about-landing > div {
-	width: fit-content;
 	padding: 2rem 7rem;
 	position: relative;
 	display: flex;
@@ -24,4 +23,14 @@ div.about-landing img.logo {
 
 div.about-landing h1 {
 	text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+	div.about-landing img.logo {
+		height: 8rem;
+	}
+
+	div.about-landing h1 {
+		font-size: 2rem;
+	}
 }

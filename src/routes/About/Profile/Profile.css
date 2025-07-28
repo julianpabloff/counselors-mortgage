@@ -17,6 +17,11 @@ div.profile img {
 	border: 0.5rem solid var(--dark-blue);
 }
 
+div.profile div.content {
+    display: flex;
+    flex-direction: column;
+}
+
 div.profile h2 {
     font-size: 2.2rem;
 }
@@ -38,4 +43,37 @@ div.profile p.nmls {
 div.profile a.inline-link {
     color: var(--light-blue);
     text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+    div.profile.left > div, div.profile.right > div {
+        flex-direction: column;
+    }
+
+    div.profile img {
+        width: 100%;
+        max-width: 300px;
+        height: initial;
+        align-self: center;
+    }
+
+    div.profile div.content {
+        align-items: center;
+    }
+
+    div.profile div.heading * {
+        text-align: center;
+    }
+
+    div.profile h3 {
+        margin-bottom: 1.5rem;
+    }
+
+    div.description {
+        max-width: 400px;
+    }
+
+    div.description * {
+        text-align: justify;
+    }
 }

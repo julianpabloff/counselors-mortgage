@@ -29,7 +29,6 @@ function generateReviewsJSX(reviews) {
     the next page of reviews, and then updates the new array location
 */
 function getReviews(reviews, startIndex, charMax = 800) {
-    console.log('getting reviews w/ charMax at', charMax);
     const totalReviews = reviews.length;
 
     let i = startIndex;
