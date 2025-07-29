@@ -35,7 +35,7 @@ div.profile h3 {
 div.profile p.nmls {
     font-size: 1.2rem;
     font-weight: 700;
-    letter-spacing: 5%;
+    letter-spacing: 0.05em;
     color: var(--light-blue);
     margin-bottom: 2rem;
 }
@@ -51,8 +51,7 @@ div.profile a.inline-link {
     }
 
     div.profile img {
-        width: 100%;
-        max-width: 300px;
+        width: min(300px, 55vw);
         height: initial;
         align-self: center;
     }
