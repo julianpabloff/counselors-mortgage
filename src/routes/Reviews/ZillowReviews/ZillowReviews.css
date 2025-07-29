@@ -21,7 +21,7 @@ div.zillow-reviews div.heading span {
 	font-size: 1.6rem;
 	font-weight: 350;
 	font-style: italic;
-	letter-spacing: 10%;
+	letter-spacing: 0.1em;
 	text-transform: uppercase;
 	color: var(--zillow-blue);
 	position: relative;
@@ -31,4 +31,11 @@ div.zillow-reviews div.heading span {
 div.zillow-reviews div.profile-links {
 	display: flex;
 	gap: 3rem;
+}
+
+@media screen and (max-width: 525px) {
+	div.zillow-reviews div.profile-links {
+		flex-direction: column;
+		gap: 1.5rem;
+	}
 }

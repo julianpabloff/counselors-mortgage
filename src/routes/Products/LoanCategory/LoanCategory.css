@@ -1,5 +1,5 @@
 section.loan-category {
-    padding: 175px 0;
+    padding: min(150px, 20vw) 0;
 }
 
 section.loan-category.dark {
@@ -8,7 +8,7 @@ section.loan-category.dark {
 }
 
 section.loan-category div.banner-heading {
-    margin-bottom: 75px;
+    margin-bottom: min(75px, 10vw);
 }
 
 section.loan-category.dark div.banner-heading h2 {

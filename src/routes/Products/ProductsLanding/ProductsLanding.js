@@ -14,7 +14,7 @@ function ProductsLanding({ productNavButtons }) {
                 Your success is our priority, and we offer a wide variety of solutions to suit your needs.
             </TitleCard>
             <div className="max-w-container">
-                <div className="max-w-small justify-between">
+                <div className="nav-button-container max-w-small">
                     {productNavButtons}
                 </div>
             </div>

@@ -28,3 +28,24 @@ a.loan-nav:hover {
     text-decoration: underline;
     background-color: var(--light-blue);
 }
+
+@media screen and (max-width: 615px) {
+    a.loan-nav {
+        width: initial;
+        min-width: 60%;
+        height: initial;
+        padding: 1rem 2rem;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1rem;
+        font-size: 1.4rem;
+    }
+
+    a.loan-nav.smaller {
+        font-size: 1.3rem;
+    }
+
+    a.loan-nav img {
+        height: 2.5rem;
+    }
+}

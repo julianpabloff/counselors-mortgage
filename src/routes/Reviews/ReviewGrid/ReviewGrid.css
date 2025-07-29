@@ -1,11 +1,11 @@
 section.reviews {
-    margin-bottom: 200px;
+    padding-bottom: min(200px, 35vw);
 }
 
 section.reviews h2 {
     width: fit-content;
     position: relative;
-    margin-bottom: 150px;
+    margin-bottom: min(150px, 25vw);
 }
 
 section.reviews h2 span {
@@ -33,4 +33,11 @@ section.reviews div.review-grid > div {
     display: flex;
     flex-direction: column;
     gap: 8rem;
+}
+
+@media screen and (max-width: 625px) {
+    section.reviews div.review-grid {
+        grid-template-columns: 1fr;
+        gap: 5rem;
+    }
 }

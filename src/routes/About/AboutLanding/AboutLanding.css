@@ -7,22 +7,27 @@ div.about-landing {
 }
 
 div.about-landing > div {
-	padding: 2rem 7rem;
+	padding: 2rem var(--side-padding);
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 2.5rem;
 	background-color: var(--faded-blue);
 	z-index: 1;
 }
 
 div.about-landing img.logo {
 	height: 9rem;
+	margin-bottom: 1.5rem;
 }
 
-div.about-landing h1 {
+div.about-landing h1, div.about-landing h2 {
 	text-align: center;
+}
+
+div.about-landing h2 {
+	font-weight: 500;
+	letter-spacing: 0.18em;
 }
 
 @media screen and (max-width: 500px) {
@@ -32,5 +37,9 @@ div.about-landing h1 {
 
 	div.about-landing h1 {
 		font-size: 2rem;
+	}
+
+	div.about-landing h2 {
+		font-size: 1.7rem;
 	}
 }

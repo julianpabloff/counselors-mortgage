@@ -4,7 +4,7 @@ a.profile-link {
 	border-radius: 1rem;
 	font-size: 1.7rem;
 	font-weight: 600;
-	letter-spacing: 5%;
+	letter-spacing: 0.05em;
 	color: var(--light-blue);
 }
 
@@ -12,6 +12,7 @@ a.profile-link > div {
 	position: relative;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	gap: 0.7rem;
 	z-index: 1;
 }

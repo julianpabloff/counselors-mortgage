@@ -1,8 +1,8 @@
 import logo from '../../../assets/logo.png';
 
-import diningLarge from '../../../assets/dining-room.jpg';
-import diningMedium from '../../../assets/dining-room-tablet.jpg';
-import diningSmall from '../../../assets/dining-room-mobile.jpg';
+import kitchenLarge from '../../../assets/kitchen.jpg';
+import kitchenMedium from '../../../assets/kitchen-tablet.jpg';
+import kitchenSmall from '../../../assets/kitchen-mobile.jpg';
 
 import './AboutLanding.css';
 
@@ -11,16 +11,17 @@ function AboutLanding() {
         <div className="about-landing">
             <div>
                 <img className="logo" src={logo} alt="Logo"/>
-                <h1>Meet The Team</h1>
+                <h1 className="mb-2">Counselors Mortgage</h1>
+                <h2 className="subheading">Meet The Team</h2>
             </div>
             <img
                 className="landing-image"
-                srcSet={`${diningSmall} 724w, ${diningMedium} 1253w, ${diningLarge} 3864w`}
+                srcSet={`${kitchenSmall} 724w, ${kitchenMedium} 1253w, ${kitchenLarge} 3864w`}
                 sizes="(width <= 500px) 724px,
                        (width <= 1000px) 1253px,
                        3864px"
-                src={diningLarge}
-                alt="Nice dining room"
+                src={kitchenLarge}
+                alt="Modern minimal kitchen"
             />
         </div>
     );

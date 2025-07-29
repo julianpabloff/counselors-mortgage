@@ -1,5 +1,5 @@
 div.title-card {
-    padding: 1.5rem 5rem;
+    padding: 1.5rem var(--side-padding);
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,11 +1,13 @@
 footer {
-    padding: 120px 0 50px 0;
+    padding: min(120px, 20vw) 0 50px 0;
     color: white;
     background-color: var(--dark-blue);
 }
 
 div.footer-content {
-    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: min(100px, 15vw);
 }
 
 div.footer-content > div {
@@ -21,6 +23,7 @@ footer h2 {
     position: relative;
     letter-spacing: 0.1em;
     margin-bottom: 2rem;
+    text-wrap: nowrap;
 }
 
 footer h2 span {
@@ -70,7 +73,7 @@ div.footer-content div.right {
 }
 
 div.right img.equal-housing {
-    height: 6.5rem;
+    height: 6rem;
     margin-bottom: 4rem;
 }
 
@@ -100,12 +103,12 @@ div.footer-content div.right a {
     align-items: center;
     gap: 1rem;
     font-size: 1.1rem;
-    letter-spacing: 5%;
+    letter-spacing: 0.05em;
     transition: letter-spacing 0.1s;
 }
 
 div.footer-content div.right a:hover {
-    letter-spacing: 7%;
+    letter-spacing: 0.07em;
     text-decoration: underline;
 }
 
@@ -114,10 +117,43 @@ div.footer-content div.contact img {
 }
 
 div.copyright img {
-    height: 4rem;
+    height: 4.5rem;
     margin-bottom: 0.7rem;
 }
 
 div.copyright p {
     font-size: 0.7rem;
+}
+
+@media screen and (max-width: 900px) {
+    div.footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    div.footer-content div.right {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    div.contact {
+        align-items: flex-start;
+    }
+
+    div.footer-content div.right h3::after {
+        left: 0;
+        right: initial;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    footer h2 {
+        font-size: 2.2rem;
+    }
+
+    footer h3 {
+        font-size: 1.9rem;
+    }
 }
