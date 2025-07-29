@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/counselors-mortgage/static/css/main.f3a40b41.css",
-    "main.js": "/counselors-mortgage/static/js/main.22f71849.js",
+    "main.css": "/counselors-mortgage/static/css/main.cfbabf4f.css",
+    "main.js": "/counselors-mortgage/static/js/main.29a24935.js",
+    "static/media/house.jpg": "/counselors-mortgage/static/media/house.badb21bb8c66ebc9129b.jpg",
     "static/media/living-room.jpg": "/counselors-mortgage/static/media/living-room.d37daca527cc091b87c7.jpg",
-    "static/media/houses.jpg": "/counselors-mortgage/static/media/houses.7fd84df243ed178e9224.jpg",
-    "static/media/family.jpg": "/counselors-mortgage/static/media/family.f61d4d4858229f764e43.jpg",
-    "static/media/dining-room.jpg": "/counselors-mortgage/static/media/dining-room.d8767ea02a5eb9f77ebb.jpg",
+    "static/media/kitchen.jpg": "/counselors-mortgage/static/media/kitchen.e3f5ce1a456aef6f7d2e.jpg",
     "static/media/lance-walker.jpg": "/counselors-mortgage/static/media/lance-walker.df70174ae932469ab046.jpg",
-    "static/media/dining-room-tablet.jpg": "/counselors-mortgage/static/media/dining-room-tablet.3ea43891fa419961c725.jpg",
     "static/media/living-room-tablet.jpg": "/counselors-mortgage/static/media/living-room-tablet.ce18d48d8ac328b76e27.jpg",
-    "static/media/family-tablet.jpg": "/counselors-mortgage/static/media/family-tablet.9942798c8003fea8cbb4.jpg",
+    "static/media/house-tablet.jpg": "/counselors-mortgage/static/media/house-tablet.52cff4fac0911ca05fcf.jpg",
     "static/media/jim-walker.jpg": "/counselors-mortgage/static/media/jim-walker.c4aa71e24cba3060604e.jpg",
-    "static/media/houses-tablet.jpg": "/counselors-mortgage/static/media/houses-tablet.b4ee253be9dd2bd01b29.jpg",
-    "static/media/family-mobile.jpg": "/counselors-mortgage/static/media/family-mobile.8ee0a75da5be7db5b413.jpg",
-    "static/media/dining-room-mobile.jpg": "/counselors-mortgage/static/media/dining-room-mobile.52c0c29d8d00ab545f92.jpg",
-    "static/media/houses-mobile.jpg": "/counselors-mortgage/static/media/houses-mobile.79102bc65bed03984bcb.jpg",
+    "static/media/kitchen-tablet.jpg": "/counselors-mortgage/static/media/kitchen-tablet.3b88a78d94a4c6a5e73b.jpg",
+    "static/media/house-mobile.jpg": "/counselors-mortgage/static/media/house-mobile.dac366b7a8c70270eb11.jpg",
     "static/media/living-room-mobile.jpg": "/counselors-mortgage/static/media/living-room-mobile.b8d91365fa6f68714d3d.jpg",
+    "static/media/kitchen-mobile.jpg": "/counselors-mortgage/static/media/kitchen-mobile.7f371e0ef12edc202d00.jpg",
+    "static/media/family-movein.jpg": "/counselors-mortgage/static/media/family-movein.aeeb5837e1ab66c02344.jpg",
     "static/media/phone.png": "/counselors-mortgage/static/media/phone.0e99f4c91dfb5365ac6d.png",
     "static/media/andrea-walker.jpg": "/counselors-mortgage/static/media/andrea-walker.f8500e2bf06a5cf30c26.jpg",
     "static/media/zillow.png": "/counselors-mortgage/static/media/zillow.4373f987d1b95fa372bd.png",
@@ -28,11 +26,11 @@
     "static/media/logo-white.png": "/counselors-mortgage/static/media/logo-white.362ac6ee01d4fa4cf692.png",
     "static/media/phone-small.png": "/counselors-mortgage/static/media/phone-small.5e791ae0efedfb6c1a90.png",
     "index.html": "/counselors-mortgage/index.html",
-    "main.f3a40b41.css.map": "/counselors-mortgage/static/css/main.f3a40b41.css.map",
-    "main.22f71849.js.map": "/counselors-mortgage/static/js/main.22f71849.js.map"
+    "main.cfbabf4f.css.map": "/counselors-mortgage/static/css/main.cfbabf4f.css.map",
+    "main.29a24935.js.map": "/counselors-mortgage/static/js/main.29a24935.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3a40b41.css",
-    "static/js/main.22f71849.js"
+    "static/css/main.cfbabf4f.css",
+    "static/js/main.29a24935.js"
   ]
 }
