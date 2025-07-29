@@ -1,0 +1,45 @@
+section.license {
+    padding: 75px 0;
+}
+
+section.license h1 {
+    font-size: 2.5rem;
+    /* margin-bottom: 0.3em; */
+    margin-bottom: 16px;
+}
+
+section.license h2 {
+    font-size: 1.3rem;
+}
+
+section.license a {
+    color: var(--light-blue);
+    text-decoration: underline;
+}
+
+section.license p {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+section.license p.spaced {
+    margin: 75px 0;
+}
+
+section.license blockquote {
+    width: fit-content;
+    margin: 2rem 0;
+    padding: 0.7rem 2rem 0.7rem 1.2rem;
+    background-color: var(--faded-blue);
+    border-left: 0.5rem solid var(--light-blue);
+}
+
+div.images {
+    margin-top: 75px;
+    display: flex;
+    gap: 3.1rem;
+}
+
+div.images img {
+    height: 4.6rem;
+}
