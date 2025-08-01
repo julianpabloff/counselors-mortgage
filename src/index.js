@@ -8,6 +8,7 @@ import About from './routes/About/About.js';
 import Products from './routes/Products/Products.js';
 import Reviews from './routes/Reviews/Reviews.js';
 import License from './routes/License/License.js';
+import Privacy from './routes/Privacy/Privacy.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
                     <Route path="/products" element={<Products/>}/>
                     <Route path="/reviews" element={<Reviews/>}/>
                     <Route path="/license" element={<License/>}/>
+                    <Route path="/privacy-policy" element={<Privacy/>}/>
                     <Route path="/*" element={<div></div>}/>
                 </Route>
             </Routes>
