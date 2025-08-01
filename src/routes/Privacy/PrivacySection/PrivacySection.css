@@ -1,0 +1,29 @@
+div.privacy-section h2 {
+    font-size: 1.4rem;
+    letter-spacing: 0em;
+    color: var(--light-blue);
+    margin-bottom: 1.2rem;
+}
+
+div.privacy-section p {
+    line-height: 1.5em;
+}
+
+div.privacy-section ul {
+    margin: 0.6rem 0;
+    padding-left: 2rem;
+}
+
+div.privacy-section li {
+    padding-left: 0.5rem;
+}
+
+div.privacy-section div.definition {
+    margin-bottom: 1.2rem;
+}
+
+div.privacy-section div.definition h3 {
+    font-size: 1.1rem;
+    letter-spacing: 0em;
+    margin-bottom: 0.4rem;
+}

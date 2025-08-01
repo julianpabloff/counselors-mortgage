@@ -8,8 +8,8 @@ function Review({ text, name, location }) {
         <div className="review">
             <div className="text-container mb-3">
                 <p>{text}</p>
-                <img src={leftQuote} alt="Quotation Mark" className="left-quote"/>
-                <img src={rightQuote} alt="Quotation Mark" className="right-quote"/>
+                <img src={leftQuote} alt="Quotation Mark" className="left-quote" draggable="false"/>
+                <img src={rightQuote} alt="Quotation Mark" className="right-quote" draggable="false"/>
             </div>
             <div className="flex align-center">
                 <p className="name">{name}</p>
