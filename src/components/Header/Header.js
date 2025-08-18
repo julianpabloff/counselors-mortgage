@@ -1,20 +1,10 @@
-import { NavLink } from 'react-router';
+import ScrollResetLink from '../../components/ScrollResetLink/ScrollResetLink.js';
 
 import logo from '../../assets/logo.png';
 import phone from '../../assets/phone.png';
 
 import '../../styles.css';
 import './Header.css';
-
-const scrollToTop = () => window.scrollTo(0, 0);
-
-function ScrollResetLink({ to, className, children }) {
-    return (
-        <NavLink to={to} className={className} onClick={scrollToTop}>
-            {children}
-        </NavLink>
-    );
-}
 
 function Header() {
     return (

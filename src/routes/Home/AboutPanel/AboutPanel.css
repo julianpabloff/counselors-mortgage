@@ -1,4 +1,24 @@
 section.about {
-    height: 600px;
+    padding: 4rem 0;
     background-color: white;
+}
+
+section.about > div {
+    gap: 4rem;
+    position: relative;
+    /* z-index: 1; */
+}
+
+section.about div.img {
+    height: 20rem;
+    width: 50%;
+    background-color: var(--faded-blue);
+}
+
+section.about div.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 36rem;
 }

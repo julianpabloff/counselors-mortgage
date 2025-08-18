@@ -12,7 +12,7 @@ a.loan-nav {
     font-weight: 300;
     color: white;
     background-color: var(--dark-blue);
-    transition: background-color 0.3s, border-radius 0.3s;
+    transition: background-color 0.3s;
 }
 
 a.loan-nav.smaller {
@@ -24,7 +24,6 @@ a.loan-nav img {
 }
 
 a.loan-nav:hover {
-    /* border-radius: 0; */
     text-decoration: underline;
     background-color: var(--light-blue);
 }

@@ -1,0 +1,64 @@
+section.products {
+    color: white;
+    background-color: var(--light-blue);
+    padding: 4rem 0 5.5rem 0;
+}
+
+section.products > div {
+    gap: 4rem;
+    position: relative;
+    z-index: 1;
+}
+
+section.products div.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 36rem;
+}
+
+section.products div.category-buttons {
+    --button-width: 21rem;
+    min-width: min(var(--button-width), 40%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+section.products div.category-buttons a {
+    width: 100%;
+    max-width: var(--button-width);
+    padding: 1rem 0;
+    border-radius: 0.6rem;
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    color: white;
+    background-color: var(--dark-blue);
+    transition: color 0.3s, background-color 0.4s;
+}
+
+section.products div.category-buttons a:hover {
+    color: var(--dark-blue);
+    background-color: var(--faded-blue);
+}
+
+section.products img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    object-position: 50% 65%;
+    opacity: 0.2;
+}
+
+@media screen and (max-width: 550px) {
+    section.products > div {
+        flex-direction: column;
+        gap: 5rem;
+    }
+}
