@@ -5,14 +5,16 @@ section.about {
 
 section.about > div {
     gap: 4rem;
-    position: relative;
-    /* z-index: 1; */
 }
 
 section.about div.img {
     height: 20rem;
     width: 50%;
-    background-color: var(--faded-blue);
+}
+
+section.about div.img img {
+    height: 100%;
+	border: 0.5rem solid var(--faded-blue);
 }
 
 section.about div.content {

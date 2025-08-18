@@ -14,7 +14,7 @@ div.profile.right > div {
 
 div.profile img {
 	height: 23rem;
-	border: 0.5rem solid var(--dark-blue);
+	border: 0.5rem solid var(--faded-blue);
 }
 
 div.profile div.content {
