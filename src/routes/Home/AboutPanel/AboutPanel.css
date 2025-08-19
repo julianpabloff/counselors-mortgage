@@ -15,7 +15,7 @@ section.about div.img {
 section.about div.img img {
     width: 100%;
     max-width: 30rem;
-    height: fit-content;
+    aspect-ratio: 976 / 667;
 	border: 0.5rem solid var(--faded-blue);
 }
 
