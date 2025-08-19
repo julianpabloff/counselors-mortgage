@@ -1,6 +1,7 @@
 import ArrowLink from '../../../components/ArrowLink/ArrowLink.js';
 
 import modernHouse from '../../../assets/modern-house.jpg';
+import logoHouse from '../../../assets/cm-house.jpg';
 import './AboutPanel.css';
 
 function AboutPanel() {
@@ -13,7 +14,7 @@ function AboutPanel() {
                     <ArrowLink to="/about" color="var(--dark-blue)">Our Company</ArrowLink>
                 </div>
                 <div className="img flex justify-center">
-                    <img src={modernHouse}/>
+                    <img src={logoHouse}/>
                 </div>
             </div>
         </section>

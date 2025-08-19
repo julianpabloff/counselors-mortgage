@@ -55,7 +55,7 @@ section.products img {
     top: 0;
     object-fit: cover;
     object-position: 50% 65%;
-    opacity: 0.2;
+    opacity: 0.45;
 }
 
 @media screen and (max-width: 550px) {

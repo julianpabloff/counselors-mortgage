@@ -1,6 +1,6 @@
 import ArrowLink from '../../../components/ArrowLink/ArrowLink.js';
 
-import kitchen from '../../../assets/kitchen.jpg';
+import kitchen from '../../../assets/kitchen-gradient.png';
 import './ProductsPanel.css';
 
 function ProductsPanel() {

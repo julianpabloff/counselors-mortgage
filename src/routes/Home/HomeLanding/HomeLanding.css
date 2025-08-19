@@ -32,7 +32,7 @@ div.home-landing img {
     top: 0;
     left: 0;
     object-fit: cover;
-    object-position: 30% 0;
+    object-position: 30% 40%;
 }
 
 @media screen and (max-width: 1200px) {
