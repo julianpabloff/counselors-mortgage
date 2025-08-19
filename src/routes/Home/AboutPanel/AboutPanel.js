@@ -14,7 +14,7 @@ function AboutPanel() {
                     <ArrowLink to="/about" color="var(--dark-blue)">Our Company</ArrowLink>
                 </div>
                 <div className="img flex justify-center">
-                    <img src={logoHouse}/>
+                    <img src={modernHouse}/>
                 </div>
             </div>
         </section>
