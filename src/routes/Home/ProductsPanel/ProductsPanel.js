@@ -4,7 +4,8 @@ import kitchen from '../../../assets/kitchen.jpg';
 import './ProductsPanel.css';
 
 function ProductsPanel() {
-    const baseUrl = 'http://localhost:3000/counselors-mortgage';
+    // const baseUrl = 'http://localhost:3000/counselors-mortgage'; // LOCAL
+    const baseUrl = 'https://julianpabloff.github.io/counselors-mortgage/'; // DEV
 
     return (
         <section className="products max-w-container relative">
