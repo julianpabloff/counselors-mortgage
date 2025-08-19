@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/counselors-mortgage/static/css/main.a5382804.css",
-    "main.js": "/counselors-mortgage/static/js/main.c8785bc3.js",
+    "main.js": "/counselors-mortgage/static/js/main.85a7c512.js",
     "static/media/house.jpg": "/counselors-mortgage/static/media/house.badb21bb8c66ebc9129b.jpg",
     "static/media/living-room.jpg": "/counselors-mortgage/static/media/living-room.d37daca527cc091b87c7.jpg",
     "static/media/kitchen.jpg": "/counselors-mortgage/static/media/kitchen.e3f5ce1a456aef6f7d2e.jpg",
@@ -28,10 +28,10 @@
     "static/media/phone-small.png": "/counselors-mortgage/static/media/phone-small.5e791ae0efedfb6c1a90.png",
     "index.html": "/counselors-mortgage/index.html",
     "main.a5382804.css.map": "/counselors-mortgage/static/css/main.a5382804.css.map",
-    "main.c8785bc3.js.map": "/counselors-mortgage/static/js/main.c8785bc3.js.map"
+    "main.85a7c512.js.map": "/counselors-mortgage/static/js/main.85a7c512.js.map"
   },
   "entrypoints": [
     "static/css/main.a5382804.css",
-    "static/js/main.c8785bc3.js"
+    "static/js/main.85a7c512.js"
   ]
 }
