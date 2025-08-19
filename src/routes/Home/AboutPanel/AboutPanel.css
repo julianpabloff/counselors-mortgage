@@ -8,12 +8,14 @@ section.about > div {
 }
 
 section.about div.img {
-    height: 20rem;
-    width: 50%;
+    width: 100%;
+    min-width: 50%;
 }
 
 section.about div.img img {
-    height: 100%;
+    width: 100%;
+    max-width: 30rem;
+    height: fit-content;
 	border: 0.5rem solid var(--faded-blue);
 }
 
@@ -23,4 +25,11 @@ section.about div.content {
     flex-direction: column;
     gap: 1.5rem;
     max-width: 36rem;
+}
+
+@media screen and (max-width: 550px) {
+    section.about > div {
+        flex-direction: column;
+        gap: 4rem;
+    }
 }

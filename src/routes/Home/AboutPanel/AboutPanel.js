@@ -12,7 +12,7 @@ function AboutPanel() {
                     <p>Welcome to Counselors Mortgage, a friendly family-owned business dedicated to providing exceptional mortgage lending services. With over two decades of experience and a deep understanding of the industry, we deliver residential loan solutions with highly competitive interest rates.</p>
                     <ArrowLink to="/about" color="var(--dark-blue)">Our Company</ArrowLink>
                 </div>
-                <div className="img flex align-center justify-center">
+                <div className="img flex justify-center">
                     <img src={modernHouse}/>
                 </div>
             </div>

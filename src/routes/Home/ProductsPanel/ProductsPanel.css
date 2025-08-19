@@ -20,7 +20,9 @@ section.products div.content {
 
 section.products div.category-buttons {
     --button-width: 21rem;
-    min-width: min(var(--button-width), 40%);
+    /* min-width: min(var(--button-width), 40%); */
+    width: 40%;
+    min-width: var(--button-width);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,5 +62,9 @@ section.products img {
     section.products > div {
         flex-direction: column;
         gap: 5rem;
+    }
+
+    section.products div.category-buttons {
+        width: 100%;
     }
 }
