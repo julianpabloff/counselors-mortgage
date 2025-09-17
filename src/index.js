@@ -13,7 +13,8 @@ import Privacy from './routes/Privacy/Privacy.js';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <BrowserRouter basename="/counselors-mortgage">
+        {/* <BrowserRouter basename="/counselors-mortgage"> */}
+        <BrowserRouter>
             <Routes>
                 <Route element={<Layout/>}>
                     <Route path="/" element={<Home/>}/>
