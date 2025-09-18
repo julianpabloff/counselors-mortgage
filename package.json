@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://julianpabloff.github.io",
+  "homepage": "https://counselorsmortgage.com",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
