@@ -3,7 +3,8 @@ import zillowLogo from '../../../../assets/zillow.png';
 import './ZillowButton.css';
 
 function ZillowButton() {
-    const url = 'https://www.zillow.com/lender-profile/Jim%20D%20Walker/';
+    // const url = 'https://www.zillow.com/lender-profile/Jim%20D%20Walker/';
+    const url = 'https://www.zillow.com/lender-profile/awalker780/';
 
     return (
         <a href={url} target="_blank" className="zillow-button">
