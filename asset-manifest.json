@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bc116aa2.css",
-    "main.js": "/static/js/main.8be0953a.js",
+    "main.js": "/static/js/main.29349bfe.js",
     "static/media/house.jpg": "/static/media/house.badb21bb8c66ebc9129b.jpg",
     "static/media/living-room.jpg": "/static/media/living-room.d37daca527cc091b87c7.jpg",
     "static/media/kitchen-gradient.png": "/static/media/kitchen-gradient.75be02c1ac754d13b48d.png",
@@ -30,10 +30,10 @@
     "static/media/phone-small.png": "/static/media/phone-small.5e791ae0efedfb6c1a90.png",
     "index.html": "/index.html",
     "main.bc116aa2.css.map": "/static/css/main.bc116aa2.css.map",
-    "main.8be0953a.js.map": "/static/js/main.8be0953a.js.map"
+    "main.29349bfe.js.map": "/static/js/main.29349bfe.js.map"
   },
   "entrypoints": [
     "static/css/main.bc116aa2.css",
-    "static/js/main.8be0953a.js"
+    "static/js/main.29349bfe.js"
   ]
 }
