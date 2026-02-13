@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc116aa2.css",
-    "main.js": "/static/js/main.29349bfe.js",
+    "main.css": "/static/css/main.3edcaf4b.css",
+    "main.js": "/static/js/main.b12564e6.js",
     "static/media/house.jpg": "/static/media/house.badb21bb8c66ebc9129b.jpg",
     "static/media/living-room.jpg": "/static/media/living-room.d37daca527cc091b87c7.jpg",
     "static/media/kitchen-gradient.png": "/static/media/kitchen-gradient.75be02c1ac754d13b48d.png",
@@ -29,11 +29,11 @@
     "static/media/logo-white.png": "/static/media/logo-white.362ac6ee01d4fa4cf692.png",
     "static/media/phone-small.png": "/static/media/phone-small.5e791ae0efedfb6c1a90.png",
     "index.html": "/index.html",
-    "main.bc116aa2.css.map": "/static/css/main.bc116aa2.css.map",
-    "main.29349bfe.js.map": "/static/js/main.29349bfe.js.map"
+    "main.3edcaf4b.css.map": "/static/css/main.3edcaf4b.css.map",
+    "main.b12564e6.js.map": "/static/js/main.b12564e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc116aa2.css",
-    "static/js/main.29349bfe.js"
+    "static/css/main.3edcaf4b.css",
+    "static/js/main.b12564e6.js"
   ]
 }
