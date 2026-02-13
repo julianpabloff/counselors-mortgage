@@ -32,8 +32,8 @@ function Footer() {
                         <img src={equalHousing} className="equal-housing" alt="Equal Housing Opportunity"/>
                         <div className="contact flex column">
                             <h3 className="relative mb-5"><span>Get in touch</span></h3>
-                            <a href="mailto:awalker@couselorsmortgage.com">
-                                AWalker@CouselorsMortgage.com
+                            <a href="mailto:awalker@counselorsmortgage.com">
+                                AWalker@CounselorsMortgage.com
                                 <img src={email} alt="Email"/>
                             </a>
                             <a href="tel:+15129169955">
